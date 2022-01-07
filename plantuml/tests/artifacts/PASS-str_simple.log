@@ -1,0 +1,6 @@
++ cat
++ rm -f design.png
++ plantuml design.txt
++ file --mime-type design.png
++ grep 'image/png$'
+design.png: image/png

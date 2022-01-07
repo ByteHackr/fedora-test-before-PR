@@ -1,0 +1,52 @@
+results:
+
+- test: smoke
+  result: error
+  runtime: 0
+  logs:
+  - ERROR-smoke.log
+  - ERROR-smoke-err.log
+
+- test: smoke
+  result: error
+  runtime: 0
+  logs:
+  - ERROR-smoke.log
+  - ERROR-smoke-err.log
+
+- test: smoke
+  result: error
+  runtime: 0
+  logs:
+  - ERROR-smoke.log
+  - ERROR-smoke-err.log
+
+- test: simple
+  result: pass
+  runtime: 1
+  logs:
+  - PASS-str_simple.log
+
+- test: simple
+  result: pass
+  runtime: 1
+  logs:
+  - PASS-str_simple.log
+
+- test: plantuml
+  result: pass
+  runtime: 1
+  logs:
+  - PASS-str_plantuml.log
+
+- test: plantuml
+  result: pass
+  runtime: 1
+  logs:
+  - PASS-str_plantuml.log
+
+- test: plantuml
+  result: pass
+  runtime: 1
+  logs:
+  - PASS-str_plantuml.log

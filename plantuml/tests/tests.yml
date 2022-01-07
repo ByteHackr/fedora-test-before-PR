@@ -1,0 +1,9 @@
+- hosts: localhost
+  roles:
+  - role: standard-test-basic
+    tags:
+    - atomic
+    tests:
+    - plantuml:
+        dir: scripts
+        run: run_tests.sh
