@@ -1,0 +1,15 @@
+2022-01-07 14:59:38,550 - Mock Version: 2.15
+2022-01-07 14:59:39,807 - Start: dnf update
+2022-01-07 14:59:43,238 - Finish: dnf update
+2022-01-07 14:59:43,245 - Finish: chroot init
+2022-01-07 14:59:43,247 - Start: build phase for plantuml-1.2021.16-1.fc36.src.rpm
+2022-01-07 14:59:43,249 - Start: build setup for plantuml-1.2021.16-1.fc36.src.rpm
+2022-01-07 15:00:01,318 - Finish: build setup for plantuml-1.2021.16-1.fc36.src.rpm
+2022-01-07 15:00:01,318 - Start: Outputting list of installed packages
+2022-01-07 15:00:01,628 - Finish: Outputting list of installed packages
+2022-01-07 15:00:01,628 - Start: rpmbuild plantuml-1.2021.16-1.fc36.src.rpm
+2022-01-07 15:01:05,358 - Finish: rpmbuild plantuml-1.2021.16-1.fc36.src.rpm
+2022-01-07 15:01:05,378 - Finish: build phase for plantuml-1.2021.16-1.fc36.src.rpm
+2022-01-07 15:01:05,384 - Start: clean chroot
+2022-01-07 15:01:08,883 - Finish: clean chroot
+2022-01-07 15:01:08,883 - Finish: run

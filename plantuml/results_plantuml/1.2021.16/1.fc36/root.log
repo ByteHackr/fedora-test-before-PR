@@ -1,0 +1,1416 @@
+INFO buildroot.py:497:  Mock Version: 2.15
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/dev/pts
+DEBUG file_util.py:20:  creating dir: /var/lib/mock/fedora-rawhide-x86_64/root/dev/pts
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/dev/shm
+DEBUG file_util.py:20:  creating dir: /var/lib/mock/fedora-rawhide-x86_64/root/dev/shm
+DEBUG buildroot.py:681:  kernel version == 5.15.12-200.fc35.x86_64
+DEBUG file_util.py:30:  touching file: /var/lib/mock/fedora-rawhide-x86_64/root/etc/fstab
+DEBUG file_util.py:30:  touching file: /var/lib/mock/fedora-rawhide-x86_64/root/etc/yum/yum.conf
+DEBUG file_util.py:30:  touching file: /var/lib/mock/fedora-rawhide-x86_64/root/etc/dnf/dnf.conf
+DEBUG file_util.py:30:  touching file: /var/lib/mock/fedora-rawhide-x86_64/root/var/log/yum.log
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/var/cache/yum
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/fedora-rawhide-x86_64/yum_cache', '/var/lib/mock/fedora-rawhide-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/var/cache/dnf
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/var/cache/mock/fedora-rawhide-x86_64/dnf_cache', '/var/lib/mock/fedora-rawhide-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/proc
+DEBUG file_util.py:30:  touching file: /var/lib/mock/fedora-rawhide-x86_64/root/proc/filesystems
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-o', 'bind', '/tmp/mock-selinux-plugin.0y1q4sfq', '/var/lib/mock/fedora-rawhide-x86_64/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64-bootstrap/root/var/lib/mock/fedora-rawhide-x86_64/root
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'private', 'tmpfs', '/var/lib/mock/fedora-rawhide-x86_64-bootstrap/root/var/lib/mock/fedora-rawhide-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64-bootstrap/root/var/lib/mock/fedora-rawhide-x86_64/root
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/var/lib/mock/fedora-rawhide-x86_64/root', '/var/lib/mock/fedora-rawhide-x86_64-bootstrap/root/var/lib/mock/fedora-rawhide-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-o', 'remount,private,rbind', '--target', '/var/lib/mock/fedora-rawhide-x86_64-bootstrap/root/var/lib/mock/fedora-rawhide-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG buildroot.py:201:  rootdir = /var/lib/mock/fedora-rawhide-x86_64/root
+DEBUG buildroot.py:202:  resultdir = /home/sandipan/Desktop/fedora/plantuml/results_plantuml/1.2021.16/1.fc36
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/etc/pki/mock
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/etc/dnf
+DEBUG package_manager.py:570:  configure DNF vars
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:536:  Using nspawn with args None
+DEBUG util.py:542:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '8980d361e4d94d738f735c153f11d8f2', '-D', '/var/lib/mock/fedora-rawhide-x86_64/root', '-a', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/usr/sbin/userdel', '-r', '-f', 'mockbuild'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:536:  Using nspawn with args None
+DEBUG util.py:542:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '07181b65624c4dea9369490897b7972a', '-D', '/var/lib/mock/fedora-rawhide-x86_64/root', '-a', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/usr/sbin/groupdel', 'mock'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:536:  Using nspawn with args None
+DEBUG util.py:542:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '5f6bcffc72ea42748e364fb2bfd0a8c6', '-D', '/var/lib/mock/fedora-rawhide-x86_64/root', '-a', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/usr/sbin/groupadd', '-g', '135', 'mock'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:536:  Using nspawn with args None
+DEBUG util.py:542:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'f6319a10dc54472ab0f0ced81ed3663c', '-D', '/var/lib/mock/fedora-rawhide-x86_64/root', '-a', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/usr/sbin/useradd', '-o', '-m', '-u', '1000', '-g', '135', '-d', '/builddir', '-n', 'mockbuild'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build
+DEBUG file_util.py:20:  creating dir: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/RPMS
+DEBUG file_util.py:20:  creating dir: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/RPMS
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/SPECS
+DEBUG file_util.py:20:  creating dir: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/SPECS
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/SRPMS
+DEBUG file_util.py:20:  creating dir: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/SRPMS
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/SOURCES
+DEBUG file_util.py:20:  creating dir: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/SOURCES
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/BUILD
+DEBUG file_util.py:20:  creating dir: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/BUILD
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/BUILDROOT
+DEBUG file_util.py:20:  creating dir: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/BUILDROOT
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/originals
+DEBUG file_util.py:20:  creating dir: /var/lib/mock/fedora-rawhide-x86_64/root/builddir/build/originals
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/builddir
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:536:  Using nspawn with args None
+DEBUG util.py:542:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '609f7aba1b1b4053a4926a04a5037c0d', '-D', '/var/lib/mock/fedora-rawhide-x86_64-bootstrap/root', '-a', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-qa', '--root', '/var/lib/mock/fedora-rawhide-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0'} and shell False
+DEBUG util.py:446:  gpg-pubkey-38ab71f4-60242b08
+DEBUG util.py:446:  gpg-pubkey-9867c58f-601c49ca
+DEBUG util.py:446:  libgcc-11.2.1-7.fc36.x86_64
+DEBUG util.py:446:  crypto-policies-20211115-1.git1b1c04c.fc36.noarch
+DEBUG util.py:446:  fedora-release-identity-basic-36-0.12.noarch
+DEBUG util.py:446:  tzdata-2021e-1.fc36.noarch
+DEBUG util.py:446:  rust-srpm-macros-20-1.fc36.noarch
+DEBUG util.py:446:  qt5-srpm-macros-5.15.2-3.fc35.noarch
+DEBUG util.py:446:  publicsuffix-list-dafsa-20210518-3.fc36.noarch
+DEBUG util.py:446:  pkgconf-m4-1.8.0-1.fc35.noarch
+DEBUG util.py:446:  perl-srpm-macros-1-42.fc35.noarch
+DEBUG util.py:446:  pcre2-syntax-10.39-1.fc36.noarch
+DEBUG util.py:446:  openblas-srpm-macros-2-10.fc35.noarch
+DEBUG util.py:446:  ocaml-srpm-macros-6-5.fc35.noarch
+DEBUG util.py:446:  nim-srpm-macros-3-5.fc35.noarch
+DEBUG util.py:446:  ncurses-base-6.2-8.20210508.fc35.noarch
+DEBUG util.py:446:  libssh-config-0.9.6-1.fc36.noarch
+DEBUG util.py:446:  kernel-srpm-macros-1.0-13.fc36.noarch
+DEBUG util.py:446:  gnat-srpm-macros-4-14.fc35.noarch
+DEBUG util.py:446:  ghc-srpm-macros-1.5.0-5.fc35.noarch
+DEBUG util.py:446:  fpc-srpm-macros-1.3-4.fc35.noarch
+DEBUG util.py:446:  fedora-gpg-keys-36-0.3.noarch
+DEBUG util.py:446:  fedora-release-36-0.12.noarch
+DEBUG util.py:446:  fedora-release-common-36-0.12.noarch
+DEBUG util.py:446:  fedora-repos-rawhide-36-0.3.noarch
+DEBUG util.py:446:  fedora-repos-36-0.3.noarch
+DEBUG util.py:446:  setup-2.13.9.1-2.fc35.noarch
+DEBUG util.py:446:  filesystem-3.16-1.fc36.x86_64
+DEBUG util.py:446:  basesystem-11-12.fc35.noarch
+DEBUG util.py:446:  ncurses-libs-6.2-8.20210508.fc35.x86_64
+DEBUG util.py:446:  bash-5.1.8-3.fc36.x86_64
+DEBUG util.py:446:  zlib-1.2.11-30.fc35.x86_64
+DEBUG util.py:446:  xz-libs-5.2.5-7.fc35.x86_64
+DEBUG util.py:446:  bzip2-libs-1.0.8-10.fc36.x86_64
+DEBUG util.py:446:  elfutils-libelf-0.186-1.fc36.x86_64
+DEBUG util.py:446:  libcap-2.48-3.fc35.x86_64
+DEBUG util.py:446:  libuuid-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  libstdc++-11.2.1-7.fc36.x86_64
+DEBUG util.py:446:  libxcrypt-4.4.27-1.fc36.x86_64
+DEBUG util.py:446:  popt-1.18-6.fc36.x86_64
+DEBUG util.py:446:  gmp-6.2.1-1.fc36.x86_64
+DEBUG util.py:446:  libattr-2.5.1-3.fc35.x86_64
+DEBUG util.py:446:  libacl-2.3.1-2.fc35.x86_64
+DEBUG util.py:446:  readline-8.1-3.fc35.x86_64
+DEBUG util.py:446:  lz4-libs-1.9.3-3.fc35.x86_64
+DEBUG util.py:446:  mpfr-4.1.0-8.fc35.x86_64
+DEBUG util.py:446:  dwz-0.14-2.fc35.x86_64
+DEBUG util.py:446:  unzip-6.0-56.fc36.x86_64
+DEBUG util.py:446:  file-libs-5.41-3.fc36.x86_64
+DEBUG util.py:446:  file-5.41-3.fc36.x86_64
+DEBUG util.py:446:  sqlite-libs-3.36.0-4.fc36.x86_64
+DEBUG util.py:446:  alternatives-1.19-1.fc35.x86_64
+DEBUG util.py:446:  diffutils-3.8-1.fc35.x86_64
+DEBUG util.py:446:  libsepol-3.3-2.fc36.x86_64
+DEBUG util.py:446:  libsmartcols-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  libunistring-0.9.10-14.fc35.x86_64
+DEBUG util.py:446:  libidn2-2.3.2-3.fc36.x86_64
+DEBUG util.py:446:  lua-libs-5.4.3-2.fc35.x86_64
+DEBUG util.py:446:  pcre2-10.39-1.fc36.x86_64
+DEBUG util.py:446:  libselinux-3.3-2.fc36.x86_64
+DEBUG util.py:446:  sed-4.8-8.fc35.x86_64
+DEBUG util.py:446:  findutils-4.8.0-4.fc35.x86_64
+DEBUG util.py:446:  libsemanage-3.3-1.fc36.x86_64
+DEBUG util.py:446:  shadow-utils-4.9-8.fc36.x86_64
+DEBUG util.py:446:  libutempter-1.2.1-5.fc35.x86_64
+DEBUG util.py:446:  tar-1.34-2.fc35.x86_64
+DEBUG util.py:446:  libpsl-0.21.1-4.fc35.x86_64
+DEBUG util.py:446:  zip-3.0-31.fc35.x86_64
+DEBUG util.py:446:  acl-2.3.1-2.fc35.x86_64
+DEBUG util.py:446:  bzip2-1.0.8-10.fc36.x86_64
+DEBUG util.py:446:  libxml2-2.9.12-6.fc35.x86_64
+DEBUG util.py:446:  openssl1.1-1.1.1l-1.fc36.x86_64
+DEBUG util.py:446:  libarchive-3.5.2-2.fc36.x86_64
+DEBUG util.py:446:  info-6.8-2.fc35.x86_64
+DEBUG util.py:446:  ed-1.14.2-11.fc35.x86_64
+DEBUG util.py:446:  patch-2.7.6-15.fc35.x86_64
+DEBUG util.py:446:  cpio-2.13-11.fc36.x86_64
+DEBUG util.py:446:  expat-2.4.1-2.fc35.x86_64
+DEBUG util.py:446:  gdbm-libs-1.22-1.fc36.x86_64
+DEBUG util.py:446:  json-c-0.15-2.fc35.x86_64
+DEBUG util.py:446:  keyutils-libs-1.6.1-3.fc35.x86_64
+DEBUG util.py:446:  libargon2-20171227-7.fc35.x86_64
+DEBUG util.py:446:  libbrotli-1.0.9-6.fc35.x86_64
+DEBUG util.py:446:  libdb-5.3.28-50.fc36.x86_64
+DEBUG util.py:446:  libeconf-0.4.0-2.fc35.x86_64
+DEBUG util.py:446:  libffi-3.1-28.fc34.x86_64
+DEBUG util.py:446:  p11-kit-0.23.22-4.fc35.x86_64
+DEBUG util.py:446:  libgomp-11.2.1-7.fc36.x86_64
+DEBUG util.py:446:  libgpg-error-1.43-1.fc36.x86_64
+DEBUG util.py:446:  libgcrypt-1.9.4-1.fc36.x86_64
+DEBUG util.py:446:  libnghttp2-1.46.0-1.fc36.x86_64
+DEBUG util.py:446:  libpkgconf-1.8.0-1.fc35.x86_64
+DEBUG util.py:446:  pkgconf-1.8.0-1.fc35.x86_64
+DEBUG util.py:446:  pkgconf-pkg-config-1.8.0-1.fc35.x86_64
+DEBUG util.py:446:  libseccomp-2.5.3-1.fc36.x86_64
+DEBUG util.py:446:  libsigsegv-2.13-3.fc35.x86_64
+DEBUG util.py:446:  gawk-5.1.1-1.fc36.x86_64
+DEBUG util.py:446:  libtasn1-4.18.0-1.fc36.x86_64
+DEBUG util.py:446:  p11-kit-trust-0.23.22-4.fc35.x86_64
+DEBUG util.py:446:  libverto-0.3.2-2.fc35.x86_64
+DEBUG util.py:446:  pcre-8.45-1.fc36.x86_64
+DEBUG util.py:446:  grep-3.7-1.fc36.x86_64
+DEBUG util.py:446:  xz-5.2.5-7.fc35.x86_64
+DEBUG util.py:446:  xxhash-libs-0.8.1-1.fc36.x86_64
+DEBUG util.py:446:  coreutils-common-9.0-2.fc36.x86_64
+DEBUG util.py:446:  openssl-libs-3.0.0-1.fc36.x86_64
+DEBUG util.py:446:  coreutils-9.0-2.fc36.x86_64
+DEBUG util.py:446:  ca-certificates-2021.2.52-2.fc36.noarch
+DEBUG util.py:446:  libblkid-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  krb5-libs-1.19.2-4.fc36.x86_64
+DEBUG util.py:446:  libmount-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  util-linux-core-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  libtirpc-1.3.2-1.rc1.fc36.x86_64
+DEBUG util.py:446:  libfdisk-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  gzip-1.11-1.fc36.x86_64
+DEBUG util.py:446:  cracklib-2.9.6-27.fc36.x86_64
+DEBUG util.py:446:  libnsl2-2.0.0-2.fc36.x86_64
+DEBUG util.py:446:  cyrus-sasl-lib-2.1.27-16.fc36.x86_64
+DEBUG util.py:446:  openldap-2.4.59-4.fc36.x86_64
+DEBUG util.py:446:  libssh-0.9.6-1.fc36.x86_64
+DEBUG util.py:446:  rpm-4.17.0-1.fc36.1.x86_64
+DEBUG util.py:446:  rpm-libs-4.17.0-1.fc36.1.x86_64
+DEBUG util.py:446:  efi-srpm-macros-5-4.fc36.noarch
+DEBUG util.py:446:  lua-srpm-macros-1-5.fc35.noarch
+DEBUG util.py:446:  rpmautospec-rpm-macros-0.2.5-1.fc35.noarch
+DEBUG util.py:446:  fonts-srpm-macros-2.0.5-6.fc35.noarch
+DEBUG util.py:446:  go-srpm-macros-3.0.11-2.fc35.noarch
+DEBUG util.py:446:  python-srpm-macros-3.10-14.fc36.noarch
+DEBUG util.py:446:  dbus-broker-29-4.fc36.x86_64
+DEBUG util.py:446:  kmod-libs-29-6.fc36.x86_64
+DEBUG util.py:446:  libpwquality-1.4.4-6.fc36.x86_64
+DEBUG util.py:446:  pam-1.5.2-8.fc36.x86_64
+DEBUG util.py:446:  util-linux-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  cryptsetup-libs-2.4.2-1.fc36.x86_64
+DEBUG util.py:446:  device-mapper-libs-1.02.175-6.fc35.x86_64
+DEBUG util.py:446:  device-mapper-1.02.175-6.fc35.x86_64
+DEBUG util.py:446:  elfutils-debuginfod-client-0.186-1.fc36.x86_64
+DEBUG util.py:446:  elfutils-libs-0.186-1.fc36.x86_64
+DEBUG util.py:446:  elfutils-default-yama-scope-0.186-1.fc36.noarch
+DEBUG util.py:446:  binutils-gold-2.37-22.fc36.x86_64
+DEBUG util.py:446:  binutils-2.37-22.fc36.x86_64
+DEBUG util.py:446:  elfutils-0.186-1.fc36.x86_64
+DEBUG util.py:446:  gdb-minimal-11.1-6.fc36.x86_64
+DEBUG util.py:446:  debugedit-5.0-2.fc35.x86_64
+DEBUG util.py:446:  rpm-build-libs-4.17.0-1.fc36.1.x86_64
+DEBUG util.py:446:  rpm-build-4.17.0-1.fc36.1.x86_64
+DEBUG util.py:446:  which-2.21-31.fc36.x86_64
+DEBUG util.py:446:  authselect-libs-1.3.0-5.fc36.x86_64
+DEBUG util.py:446:  authselect-1.3.0-5.fc36.x86_64
+DEBUG util.py:446:  libcap-ng-0.8.2-8.fc36.x86_64
+DEBUG util.py:446:  redhat-rpm-config-207-1.fc36.noarch
+DEBUG util.py:446:  glibc-common-2.34.9000-36.fc36.x86_64
+DEBUG util.py:446:  glibc-gconv-extra-2.34.9000-36.fc36.x86_64
+DEBUG util.py:446:  glibc-minimal-langpack-2.34.9000-36.fc36.x86_64
+DEBUG util.py:446:  glibc-2.34.9000-36.fc36.x86_64
+DEBUG util.py:446:  libzstd-1.5.1-4.fc36.x86_64
+DEBUG util.py:446:  systemd-libs-250.1-1.fc36.x86_64
+DEBUG util.py:446:  audit-libs-3.0.6-2.fc36.x86_64
+DEBUG util.py:446:  libcurl-7.81.0-1.fc36.x86_64
+DEBUG util.py:446:  systemd-rpm-macros-250.1-1.fc36.noarch
+DEBUG util.py:446:  dbus-1.13.20-2.fc36.x86_64
+DEBUG util.py:446:  systemd-pam-250.1-1.fc36.x86_64
+DEBUG util.py:446:  systemd-250.1-1.fc36.x86_64
+DEBUG util.py:446:  curl-7.81.0-1.fc36.x86_64
+DEBUG util.py:446:  libcom_err-1.46.5-1.fc36.x86_64
+DEBUG util.py:446:  zstd-1.5.1-4.fc36.x86_64
+DEBUG util.py:446:  dbus-common-1.13.20-2.fc36.noarch
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/proc
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/var/lib/mock/fedora-rawhide-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/proc
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/var/lib/mock/fedora-rawhide-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/fedora-rawhide-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/sys
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/var/lib/mock/fedora-rawhide-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/sys
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/var/lib/mock/fedora-rawhide-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/fedora-rawhide-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/dev/shm
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/fedora-rawhide-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/dev/pts
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/fedora-rawhide-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/sys/fs/selinux
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/fedora-rawhide-x86_64/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/installation-homedir
+DEBUG package_manager.py:197:  ['/usr/bin/dnf', '--installroot', '/var/lib/mock/fedora-rawhide-x86_64/root/', '-y', '--releasever', '36', '--setopt=deltarpm=False', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'update']
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:536:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.tm0w5m__:/etc/resolv.conf']
+DEBUG util.py:542:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'b8202f7831b64c2fb983c4b8bff09e27', '-D', '/var/lib/mock/fedora-rawhide-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.tm0w5m__:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/var/lib/mock/fedora-rawhide-x86_64/root/installation-homedir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--setenv=LC_MESSAGES=C.UTF-8', '--resolv-conf=off', '/usr/bin/dnf', '--installroot', '/var/lib/mock/fedora-rawhide-x86_64/root/', '-y', '--releasever', '36', '--setopt=deltarpm=False', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', 'update', '--setopt=tsflags=nocontexts'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/var/lib/mock/fedora-rawhide-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0'} and shell False
+DEBUG util.py:444:  No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+DEBUG util.py:446:  fedora                                                                     3.9 kB/s | 4.3 kB     00:01    
+DEBUG util.py:446:  Dependencies resolved.
+DEBUG util.py:446:  Nothing to do.
+DEBUG util.py:446:  Complete!
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:169:  kill orphans
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:536:  Using nspawn with args None
+DEBUG util.py:542:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'cf733f80c684446f9a199e12f9c8a25d', '-D', '/var/lib/mock/fedora-rawhide-x86_64-bootstrap/root', '-a', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-qa', '--root', '/var/lib/mock/fedora-rawhide-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0'} and shell False
+DEBUG util.py:446:  gpg-pubkey-38ab71f4-60242b08
+DEBUG util.py:446:  gpg-pubkey-9867c58f-601c49ca
+DEBUG util.py:446:  libgcc-11.2.1-7.fc36.x86_64
+DEBUG util.py:446:  crypto-policies-20211115-1.git1b1c04c.fc36.noarch
+DEBUG util.py:446:  fedora-release-identity-basic-36-0.12.noarch
+DEBUG util.py:446:  tzdata-2021e-1.fc36.noarch
+DEBUG util.py:446:  rust-srpm-macros-20-1.fc36.noarch
+DEBUG util.py:446:  qt5-srpm-macros-5.15.2-3.fc35.noarch
+DEBUG util.py:446:  publicsuffix-list-dafsa-20210518-3.fc36.noarch
+DEBUG util.py:446:  pkgconf-m4-1.8.0-1.fc35.noarch
+DEBUG util.py:446:  perl-srpm-macros-1-42.fc35.noarch
+DEBUG util.py:446:  pcre2-syntax-10.39-1.fc36.noarch
+DEBUG util.py:446:  openblas-srpm-macros-2-10.fc35.noarch
+DEBUG util.py:446:  ocaml-srpm-macros-6-5.fc35.noarch
+DEBUG util.py:446:  nim-srpm-macros-3-5.fc35.noarch
+DEBUG util.py:446:  ncurses-base-6.2-8.20210508.fc35.noarch
+DEBUG util.py:446:  libssh-config-0.9.6-1.fc36.noarch
+DEBUG util.py:446:  kernel-srpm-macros-1.0-13.fc36.noarch
+DEBUG util.py:446:  gnat-srpm-macros-4-14.fc35.noarch
+DEBUG util.py:446:  ghc-srpm-macros-1.5.0-5.fc35.noarch
+DEBUG util.py:446:  fpc-srpm-macros-1.3-4.fc35.noarch
+DEBUG util.py:446:  fedora-gpg-keys-36-0.3.noarch
+DEBUG util.py:446:  fedora-release-36-0.12.noarch
+DEBUG util.py:446:  fedora-release-common-36-0.12.noarch
+DEBUG util.py:446:  fedora-repos-rawhide-36-0.3.noarch
+DEBUG util.py:446:  fedora-repos-36-0.3.noarch
+DEBUG util.py:446:  setup-2.13.9.1-2.fc35.noarch
+DEBUG util.py:446:  filesystem-3.16-1.fc36.x86_64
+DEBUG util.py:446:  basesystem-11-12.fc35.noarch
+DEBUG util.py:446:  ncurses-libs-6.2-8.20210508.fc35.x86_64
+DEBUG util.py:446:  bash-5.1.8-3.fc36.x86_64
+DEBUG util.py:446:  zlib-1.2.11-30.fc35.x86_64
+DEBUG util.py:446:  xz-libs-5.2.5-7.fc35.x86_64
+DEBUG util.py:446:  bzip2-libs-1.0.8-10.fc36.x86_64
+DEBUG util.py:446:  elfutils-libelf-0.186-1.fc36.x86_64
+DEBUG util.py:446:  libcap-2.48-3.fc35.x86_64
+DEBUG util.py:446:  libuuid-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  libstdc++-11.2.1-7.fc36.x86_64
+DEBUG util.py:446:  libxcrypt-4.4.27-1.fc36.x86_64
+DEBUG util.py:446:  popt-1.18-6.fc36.x86_64
+DEBUG util.py:446:  gmp-6.2.1-1.fc36.x86_64
+DEBUG util.py:446:  libattr-2.5.1-3.fc35.x86_64
+DEBUG util.py:446:  libacl-2.3.1-2.fc35.x86_64
+DEBUG util.py:446:  readline-8.1-3.fc35.x86_64
+DEBUG util.py:446:  lz4-libs-1.9.3-3.fc35.x86_64
+DEBUG util.py:446:  mpfr-4.1.0-8.fc35.x86_64
+DEBUG util.py:446:  dwz-0.14-2.fc35.x86_64
+DEBUG util.py:446:  unzip-6.0-56.fc36.x86_64
+DEBUG util.py:446:  file-libs-5.41-3.fc36.x86_64
+DEBUG util.py:446:  file-5.41-3.fc36.x86_64
+DEBUG util.py:446:  sqlite-libs-3.36.0-4.fc36.x86_64
+DEBUG util.py:446:  alternatives-1.19-1.fc35.x86_64
+DEBUG util.py:446:  diffutils-3.8-1.fc35.x86_64
+DEBUG util.py:446:  libsepol-3.3-2.fc36.x86_64
+DEBUG util.py:446:  libsmartcols-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  libunistring-0.9.10-14.fc35.x86_64
+DEBUG util.py:446:  libidn2-2.3.2-3.fc36.x86_64
+DEBUG util.py:446:  lua-libs-5.4.3-2.fc35.x86_64
+DEBUG util.py:446:  pcre2-10.39-1.fc36.x86_64
+DEBUG util.py:446:  libselinux-3.3-2.fc36.x86_64
+DEBUG util.py:446:  sed-4.8-8.fc35.x86_64
+DEBUG util.py:446:  findutils-4.8.0-4.fc35.x86_64
+DEBUG util.py:446:  libsemanage-3.3-1.fc36.x86_64
+DEBUG util.py:446:  shadow-utils-4.9-8.fc36.x86_64
+DEBUG util.py:446:  libutempter-1.2.1-5.fc35.x86_64
+DEBUG util.py:446:  tar-1.34-2.fc35.x86_64
+DEBUG util.py:446:  libpsl-0.21.1-4.fc35.x86_64
+DEBUG util.py:446:  zip-3.0-31.fc35.x86_64
+DEBUG util.py:446:  acl-2.3.1-2.fc35.x86_64
+DEBUG util.py:446:  bzip2-1.0.8-10.fc36.x86_64
+DEBUG util.py:446:  libxml2-2.9.12-6.fc35.x86_64
+DEBUG util.py:446:  openssl1.1-1.1.1l-1.fc36.x86_64
+DEBUG util.py:446:  libarchive-3.5.2-2.fc36.x86_64
+DEBUG util.py:446:  info-6.8-2.fc35.x86_64
+DEBUG util.py:446:  ed-1.14.2-11.fc35.x86_64
+DEBUG util.py:446:  patch-2.7.6-15.fc35.x86_64
+DEBUG util.py:446:  cpio-2.13-11.fc36.x86_64
+DEBUG util.py:446:  expat-2.4.1-2.fc35.x86_64
+DEBUG util.py:446:  gdbm-libs-1.22-1.fc36.x86_64
+DEBUG util.py:446:  json-c-0.15-2.fc35.x86_64
+DEBUG util.py:446:  keyutils-libs-1.6.1-3.fc35.x86_64
+DEBUG util.py:446:  libargon2-20171227-7.fc35.x86_64
+DEBUG util.py:446:  libbrotli-1.0.9-6.fc35.x86_64
+DEBUG util.py:446:  libdb-5.3.28-50.fc36.x86_64
+DEBUG util.py:446:  libeconf-0.4.0-2.fc35.x86_64
+DEBUG util.py:446:  libffi-3.1-28.fc34.x86_64
+DEBUG util.py:446:  p11-kit-0.23.22-4.fc35.x86_64
+DEBUG util.py:446:  libgomp-11.2.1-7.fc36.x86_64
+DEBUG util.py:446:  libgpg-error-1.43-1.fc36.x86_64
+DEBUG util.py:446:  libgcrypt-1.9.4-1.fc36.x86_64
+DEBUG util.py:446:  libnghttp2-1.46.0-1.fc36.x86_64
+DEBUG util.py:446:  libpkgconf-1.8.0-1.fc35.x86_64
+DEBUG util.py:446:  pkgconf-1.8.0-1.fc35.x86_64
+DEBUG util.py:446:  pkgconf-pkg-config-1.8.0-1.fc35.x86_64
+DEBUG util.py:446:  libseccomp-2.5.3-1.fc36.x86_64
+DEBUG util.py:446:  libsigsegv-2.13-3.fc35.x86_64
+DEBUG util.py:446:  gawk-5.1.1-1.fc36.x86_64
+DEBUG util.py:446:  libtasn1-4.18.0-1.fc36.x86_64
+DEBUG util.py:446:  p11-kit-trust-0.23.22-4.fc35.x86_64
+DEBUG util.py:446:  libverto-0.3.2-2.fc35.x86_64
+DEBUG util.py:446:  pcre-8.45-1.fc36.x86_64
+DEBUG util.py:446:  grep-3.7-1.fc36.x86_64
+DEBUG util.py:446:  xz-5.2.5-7.fc35.x86_64
+DEBUG util.py:446:  xxhash-libs-0.8.1-1.fc36.x86_64
+DEBUG util.py:446:  coreutils-common-9.0-2.fc36.x86_64
+DEBUG util.py:446:  openssl-libs-3.0.0-1.fc36.x86_64
+DEBUG util.py:446:  coreutils-9.0-2.fc36.x86_64
+DEBUG util.py:446:  ca-certificates-2021.2.52-2.fc36.noarch
+DEBUG util.py:446:  libblkid-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  krb5-libs-1.19.2-4.fc36.x86_64
+DEBUG util.py:446:  libmount-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  util-linux-core-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  libtirpc-1.3.2-1.rc1.fc36.x86_64
+DEBUG util.py:446:  libfdisk-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  gzip-1.11-1.fc36.x86_64
+DEBUG util.py:446:  cracklib-2.9.6-27.fc36.x86_64
+DEBUG util.py:446:  libnsl2-2.0.0-2.fc36.x86_64
+DEBUG util.py:446:  cyrus-sasl-lib-2.1.27-16.fc36.x86_64
+DEBUG util.py:446:  openldap-2.4.59-4.fc36.x86_64
+DEBUG util.py:446:  libssh-0.9.6-1.fc36.x86_64
+DEBUG util.py:446:  rpm-4.17.0-1.fc36.1.x86_64
+DEBUG util.py:446:  rpm-libs-4.17.0-1.fc36.1.x86_64
+DEBUG util.py:446:  efi-srpm-macros-5-4.fc36.noarch
+DEBUG util.py:446:  lua-srpm-macros-1-5.fc35.noarch
+DEBUG util.py:446:  rpmautospec-rpm-macros-0.2.5-1.fc35.noarch
+DEBUG util.py:446:  fonts-srpm-macros-2.0.5-6.fc35.noarch
+DEBUG util.py:446:  go-srpm-macros-3.0.11-2.fc35.noarch
+DEBUG util.py:446:  python-srpm-macros-3.10-14.fc36.noarch
+DEBUG util.py:446:  dbus-broker-29-4.fc36.x86_64
+DEBUG util.py:446:  kmod-libs-29-6.fc36.x86_64
+DEBUG util.py:446:  libpwquality-1.4.4-6.fc36.x86_64
+DEBUG util.py:446:  pam-1.5.2-8.fc36.x86_64
+DEBUG util.py:446:  util-linux-2.37.2-1.fc36.x86_64
+DEBUG util.py:446:  cryptsetup-libs-2.4.2-1.fc36.x86_64
+DEBUG util.py:446:  device-mapper-libs-1.02.175-6.fc35.x86_64
+DEBUG util.py:446:  device-mapper-1.02.175-6.fc35.x86_64
+DEBUG util.py:446:  elfutils-debuginfod-client-0.186-1.fc36.x86_64
+DEBUG util.py:446:  elfutils-libs-0.186-1.fc36.x86_64
+DEBUG util.py:446:  elfutils-default-yama-scope-0.186-1.fc36.noarch
+DEBUG util.py:446:  binutils-gold-2.37-22.fc36.x86_64
+DEBUG util.py:446:  binutils-2.37-22.fc36.x86_64
+DEBUG util.py:446:  elfutils-0.186-1.fc36.x86_64
+DEBUG util.py:446:  gdb-minimal-11.1-6.fc36.x86_64
+DEBUG util.py:446:  debugedit-5.0-2.fc35.x86_64
+DEBUG util.py:446:  rpm-build-libs-4.17.0-1.fc36.1.x86_64
+DEBUG util.py:446:  rpm-build-4.17.0-1.fc36.1.x86_64
+DEBUG util.py:446:  which-2.21-31.fc36.x86_64
+DEBUG util.py:446:  authselect-libs-1.3.0-5.fc36.x86_64
+DEBUG util.py:446:  authselect-1.3.0-5.fc36.x86_64
+DEBUG util.py:446:  libcap-ng-0.8.2-8.fc36.x86_64
+DEBUG util.py:446:  redhat-rpm-config-207-1.fc36.noarch
+DEBUG util.py:446:  glibc-common-2.34.9000-36.fc36.x86_64
+DEBUG util.py:446:  glibc-gconv-extra-2.34.9000-36.fc36.x86_64
+DEBUG util.py:446:  glibc-minimal-langpack-2.34.9000-36.fc36.x86_64
+DEBUG util.py:446:  glibc-2.34.9000-36.fc36.x86_64
+DEBUG util.py:446:  libzstd-1.5.1-4.fc36.x86_64
+DEBUG util.py:446:  systemd-libs-250.1-1.fc36.x86_64
+DEBUG util.py:446:  audit-libs-3.0.6-2.fc36.x86_64
+DEBUG util.py:446:  libcurl-7.81.0-1.fc36.x86_64
+DEBUG util.py:446:  systemd-rpm-macros-250.1-1.fc36.noarch
+DEBUG util.py:446:  dbus-1.13.20-2.fc36.x86_64
+DEBUG util.py:446:  systemd-pam-250.1-1.fc36.x86_64
+DEBUG util.py:446:  systemd-250.1-1.fc36.x86_64
+DEBUG util.py:446:  curl-7.81.0-1.fc36.x86_64
+DEBUG util.py:446:  libcom_err-1.46.5-1.fc36.x86_64
+DEBUG util.py:446:  zstd-1.5.1-4.fc36.x86_64
+DEBUG util.py:446:  dbus-common-1.13.20-2.fc36.noarch
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:30:  touching file: /var/lib/mock/fedora-rawhide-x86_64/root/.initialized
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:536:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.dxrw4jmn:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+DEBUG util.py:542:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '610f49b9620c4521ab7a9fb380376e60', '-D', '/var/lib/mock/fedora-rawhide-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.dxrw4jmn:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-Uvh', '--nodeps', '/builddir/build/originals/plantuml-1.2021.16-1.fc36.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0'} and shell False
+DEBUG util.py:446:  Updating / installing...
+DEBUG util.py:444:  plantuml-1:1.2021.16-1.fc36           warning: user sandipan does not exist - using root
+DEBUG util.py:444:  warning: group sandipan does not exist - using root
+DEBUG util.py:444:  warning: user sandipan does not exist - using root
+DEBUG util.py:444:  warning: group sandipan does not exist - using root
+DEBUG util.py:444:  warning: user sandipan does not exist - using root
+DEBUG util.py:444:  warning: group sandipan does not exist - using root
+DEBUG util.py:446:  ########################################
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:536:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.dxrw4jmn:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+DEBUG util.py:542:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '786d7cd47210473886a4dba016294f68', '-D', '/var/lib/mock/fedora-rawhide-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.dxrw4jmn:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/rpm', '-qpl', '/builddir/build/originals/plantuml-1.2021.16-1.fc36.src.rpm'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0'} and shell False
+DEBUG util.py:446:  build-with-javac-utf8-encoding.patch
+DEBUG util.py:446:  plantuml-lgpl-1.2021.16.tar.gz
+DEBUG util.py:446:  plantuml.spec
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/proc
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/var/lib/mock/fedora-rawhide-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/proc
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/proc', '/var/lib/mock/fedora-rawhide-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/fedora-rawhide-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/sys
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', '-o', 'rprivate', 'tmpfs', '/var/lib/mock/fedora-rawhide-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/sys
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-o', 'rbind', '/sys', '/var/lib/mock/fedora-rawhide-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-o', 'remount,nodev,noexec,nosuid,readonly,rprivate,rbind', '--target', '/var/lib/mock/fedora-rawhide-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/dev/shm
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/fedora-rawhide-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/dev/pts
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-t', 'devpts', '-o', 'gid=5,mode=0620,ptmxmode=0666,newinstance', 'devpts', '/var/lib/mock/fedora-rawhide-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/sys/fs/selinux
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/mount', '-n', '-t', 'tmpfs', 'tmpfs', '/var/lib/mock/fedora-rawhide-x86_64/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG file_util.py:17:  ensuring that dir exists: /var/lib/mock/fedora-rawhide-x86_64/root/installation-homedir
+DEBUG package_manager.py:197:  ['/usr/bin/dnf', 'builddep', '--installroot', '/var/lib/mock/fedora-rawhide-x86_64/root/', '--releasever', '36', '--setopt=deltarpm=False', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/var/lib/mock/fedora-rawhide-x86_64/root//builddir/build/SRPMS/plantuml-1.2021.16-1.fc36.src.rpm']
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:536:  Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.tm0w5m__:/etc/resolv.conf']
+DEBUG util.py:542:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'df954112b72e49be950b0be807a35d68', '-D', '/var/lib/mock/fedora-rawhide-x86_64-bootstrap/root', '-a', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.tm0w5m__:/etc/resolv.conf', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/var/lib/mock/fedora-rawhide-x86_64/root/installation-homedir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--setenv=LC_MESSAGES=C.UTF-8', '--resolv-conf=off', '/usr/bin/dnf', 'builddep', '--installroot', '/var/lib/mock/fedora-rawhide-x86_64/root/', '--releasever', '36', '--setopt=deltarpm=False', '--allowerasing', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '--disableplugin=local', '--disableplugin=spacewalk', '--disableplugin=versionlock', '/var/lib/mock/fedora-rawhide-x86_64/root//builddir/build/SRPMS/plantuml-1.2021.16-1.fc36.src.rpm', '--setopt=tsflags=nocontexts'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/var/lib/mock/fedora-rawhide-x86_64/root/installation-homedir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'LC_MESSAGES': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0'} and shell False
+DEBUG util.py:444:  No matches found for the following disable plugin patterns: local, spacewalk, versionlock
+DEBUG util.py:446:  fedora                                                                     5.0 kB/s | 4.3 kB     00:00    
+DEBUG util.py:446:  Dependencies resolved.
+DEBUG util.py:446:  ===========================================================================================================
+DEBUG util.py:446:   Package                                     Arch       Version                           Repository  Size
+DEBUG util.py:446:  ===========================================================================================================
+DEBUG util.py:446:  Installing:
+DEBUG util.py:446:   ant                                         noarch     1.10.12-1.fc36                    fedora     165 k
+DEBUG util.py:446:   fdupes                                      x86_64     1:2.1.1-3.fc35                    fedora      49 k
+DEBUG util.py:446:   javapackages-local                          noarch     6.0.0-4.fc36                      fedora      26 k
+DEBUG util.py:446:   xmvn                                        noarch     4.0.0-4.fc36                      fedora     9.2 k
+DEBUG util.py:446:  Installing dependencies:
+DEBUG util.py:446:   alsa-lib                                    x86_64     1.2.6.1-3.fc36                    fedora     497 k
+DEBUG util.py:446:   ant-lib                                     noarch     1.10.12-1.fc36                    fedora     2.0 M
+DEBUG util.py:446:   apache-commons-cli                          noarch     1.5.0-1.fc36                      fedora      75 k
+DEBUG util.py:446:   apache-commons-codec                        noarch     1.15-4.fc35                       fedora     302 k
+DEBUG util.py:446:   apache-commons-compress                     noarch     1.21-1.fc35                       fedora     568 k
+DEBUG util.py:446:   apache-commons-io                           noarch     1:2.8.0-5.fc35                    fedora     283 k
+DEBUG util.py:446:   apache-commons-lang3                        noarch     3.12.0-3.fc35                     fedora     559 k
+DEBUG util.py:446:   atinject                                    noarch     1.0.5-1.fc36                      fedora      23 k
+DEBUG util.py:446:   avahi-libs                                  x86_64     0.8-14.fc35                       fedora      68 k
+DEBUG util.py:446:   beust-jcommander                            noarch     1.78-7.fc35                       fedora      91 k
+DEBUG util.py:446:   cdi-api                                     noarch     2.0.2-3.fc35                      fedora      53 k
+DEBUG util.py:446:   copy-jdk-configs                            noarch     4.0-2.fc35                        fedora      27 k
+DEBUG util.py:446:   crypto-policies-scripts                     noarch     20211115-1.git1b1c04c.fc36        fedora      81 k
+DEBUG util.py:446:   cups-libs                                   x86_64     1:2.3.3op2-11.fc36                fedora     266 k
+DEBUG util.py:446:   dbus-libs                                   x86_64     1:1.13.20-2.fc36                  fedora     156 k
+DEBUG util.py:446:   dejavu-sans-fonts                           noarch     2.37-17.fc35                      fedora     1.3 M
+DEBUG util.py:446:   fontconfig                                  x86_64     2.13.94-3.fc35                    fedora     272 k
+DEBUG util.py:446:   fonts-filesystem                            noarch     1:2.0.5-6.fc35                    fedora     8.9 k
+DEBUG util.py:446:   freetype                                    x86_64     2.11.1-1.fc36                     fedora     399 k
+DEBUG util.py:446:   giflib                                      x86_64     5.2.1-8.fc35                      fedora      47 k
+DEBUG util.py:446:   glib2                                       x86_64     2.70.2-2.fc36                     fedora     2.6 M
+DEBUG util.py:446:   gnutls                                      x86_64     3.7.2-2.fc35                      fedora     1.0 M
+DEBUG util.py:446:   google-guice                                noarch     4.2.3-6.fc35                      fedora     473 k
+DEBUG util.py:446:   graphite2                                   x86_64     1.3.14-8.fc35                     fedora      94 k
+DEBUG util.py:446:   guava                                       noarch     31.0.1-1.fc36                     fedora     2.5 M
+DEBUG util.py:446:   harfbuzz                                    x86_64     3.2.0-1.fc36                      fedora     710 k
+DEBUG util.py:446:   httpcomponents-client                       noarch     4.5.13-2.fc35                     fedora     657 k
+DEBUG util.py:446:   httpcomponents-core                         noarch     4.4.13-4.fc35                     fedora     631 k
+DEBUG util.py:446:   jakarta-annotations                         noarch     1.3.5-11.fc36                     fedora      45 k
+DEBUG util.py:446:   jansi                                       x86_64     2.4.0-1.fc36                      fedora     111 k
+DEBUG util.py:446:   java-11-openjdk                             x86_64     1:11.0.14.0.1-0.1.ea.fc36         fedora     249 k
+DEBUG util.py:446:   java-11-openjdk-devel                       x86_64     1:11.0.14.0.1-0.1.ea.fc36         fedora     3.3 M
+DEBUG util.py:446:   java-11-openjdk-headless                    x86_64     1:11.0.14.0.1-0.1.ea.fc36         fedora      38 M
+DEBUG util.py:446:   javapackages-filesystem                     noarch     6.0.0-4.fc36                      fedora      12 k
+DEBUG util.py:446:   javapackages-generators                     noarch     6.0.0-4.fc36                      fedora      16 k
+DEBUG util.py:446:   javapackages-tools                          noarch     6.0.0-4.fc36                      fedora      25 k
+DEBUG util.py:446:   jcl-over-slf4j                              noarch     1.7.32-1.fc36                     fedora      24 k
+DEBUG util.py:446:   jsoup                                       noarch     1.13.1-7.fc35                     fedora     376 k
+DEBUG util.py:446:   jsr-305                                     noarch     3.0.2-3.fc35                      fedora      32 k
+DEBUG util.py:446:   langpacks-core-font-en                      noarch     3.0-16.fc36                       fedora     9.2 k
+DEBUG util.py:446:   lcms2                                       x86_64     2.12-2.fc35                       fedora     167 k
+DEBUG util.py:446:   libX11                                      x86_64     1.7.3.1-1.fc36                    fedora     645 k
+DEBUG util.py:446:   libX11-common                               noarch     1.7.3.1-1.fc36                    fedora     152 k
+DEBUG util.py:446:   libXau                                      x86_64     1.0.9-7.fc35                      fedora      30 k
+DEBUG util.py:446:   libXcomposite                               x86_64     0.4.5-6.fc35                      fedora      23 k
+DEBUG util.py:446:   libXext                                     x86_64     1.3.4-7.fc35                      fedora      39 k
+DEBUG util.py:446:   libXi                                       x86_64     1.8-1.fc36                        fedora      39 k
+DEBUG util.py:446:   libXrender                                  x86_64     0.9.10-15.fc35                    fedora      27 k
+DEBUG util.py:446:   libXtst                                     x86_64     1.2.3-15.fc35                     fedora      20 k
+DEBUG util.py:446:   libevent                                    x86_64     2.1.12-5.fc36                     fedora     260 k
+DEBUG util.py:446:   libfontenc                                  x86_64     1.1.4-2.fc36                      fedora      31 k
+DEBUG util.py:446:   libjpeg-turbo                               x86_64     2.1.2-1.fc36                      fedora     176 k
+DEBUG util.py:446:   libpng                                      x86_64     2:1.6.37-11.fc35                  fedora     119 k
+DEBUG util.py:446:   libxcb                                      x86_64     1.13.1-8.fc35                     fedora     223 k
+DEBUG util.py:446:   libxslt                                     x86_64     1.1.34-6.fc36                     fedora     241 k
+DEBUG util.py:446:   lksctp-tools                                x86_64     1.0.18-11.fc35                    fedora      91 k
+DEBUG util.py:446:   lua                                         x86_64     5.4.3-2.fc35                      fedora     188 k
+DEBUG util.py:446:   lua-posix                                   x86_64     35.0-4.fc35                       fedora     128 k
+DEBUG util.py:446:   maven                                       noarch     1:3.6.3-14.fc36                   fedora      18 k
+DEBUG util.py:446:   maven-lib                                   noarch     1:3.6.3-14.fc36                   fedora     1.5 M
+DEBUG util.py:446:   maven-openjdk11                             noarch     1:3.6.3-14.fc36                   fedora     9.4 k
+DEBUG util.py:446:   maven-resolver                              noarch     1:1.6.1-7.fc36                    fedora     553 k
+DEBUG util.py:446:   maven-shared-utils                          noarch     3.3.4-2.fc35                      fedora     151 k
+DEBUG util.py:446:   maven-wagon                                 noarch     3.4.2-4.fc35                      fedora     112 k
+DEBUG util.py:446:   mkfontscale                                 x86_64     1.2.1-3.fc35                      fedora      31 k
+DEBUG util.py:446:   mpdecimal                                   x86_64     2.5.1-2.fc35                      fedora      99 k
+DEBUG util.py:446:   nettle                                      x86_64     3.7.3-2.fc35                      fedora     396 k
+DEBUG util.py:446:   nspr                                        x86_64     4.32.0-4.fc36                     fedora     138 k
+DEBUG util.py:446:   nss                                         x86_64     3.73.0-1.fc36                     fedora     689 k
+DEBUG util.py:446:   nss-softokn                                 x86_64     3.73.0-1.fc36                     fedora     378 k
+DEBUG util.py:446:   nss-softokn-freebl                          x86_64     3.73.0-1.fc36                     fedora     324 k
+DEBUG util.py:446:   nss-sysinit                                 x86_64     3.73.0-1.fc36                     fedora      21 k
+DEBUG util.py:446:   nss-util                                    x86_64     3.73.0-1.fc36                     fedora      89 k
+DEBUG util.py:446:   objectweb-asm                               noarch     9.2-1.fc36                        fedora     365 k
+DEBUG util.py:446:   pcre2-utf32                                 x86_64     10.39-1.fc36                      fedora     200 k
+DEBUG util.py:446:   plexus-cipher                               noarch     1.8-1.fc36                        fedora      25 k
+DEBUG util.py:446:   plexus-classworlds                          noarch     2.6.0-8.fc35                      fedora      59 k
+DEBUG util.py:446:   plexus-containers-component-annotations     noarch     2.1.0-7.fc35                      fedora      18 k
+DEBUG util.py:446:   plexus-interpolation                        noarch     1.26-8.fc35                       fedora      79 k
+DEBUG util.py:446:   plexus-sec-dispatcher                       noarch     2.0-1.fc36                        fedora      33 k
+DEBUG util.py:446:   plexus-utils                                noarch     3.3.0-7.fc35                      fedora     254 k
+DEBUG util.py:446:   publicsuffix-list                           noarch     20210518-3.fc36                   fedora      82 k
+DEBUG util.py:446:   python-pip-wheel                            noarch     21.3.1-1.fc36                     fedora     1.1 M
+DEBUG util.py:446:   python-setuptools-wheel                     noarch     59.6.0-1.fc36                     fedora     507 k
+DEBUG util.py:446:   python3                                     x86_64     3.10.1-1.fc36                     fedora      26 k
+DEBUG util.py:446:   python3-javapackages                        noarch     6.0.0-4.fc36                      fedora      72 k
+DEBUG util.py:446:   python3-libs                                x86_64     3.10.1-1.fc36                     fedora     7.5 M
+DEBUG util.py:446:   python3-lxml                                x86_64     4.6.3-5.fc36                      fedora     1.2 M
+DEBUG util.py:446:   sisu                                        noarch     1:0.3.4-7.fc35                    fedora     510 k
+DEBUG util.py:446:   slf4j                                       noarch     1.7.32-1.fc36                     fedora      69 k
+DEBUG util.py:446:   ttmkfdir                                    x86_64     3.0.9-64.fc35                     fedora      52 k
+DEBUG util.py:446:   tzdata-java                                 noarch     2021e-1.fc36                      fedora     155 k
+DEBUG util.py:446:   xml-common                                  noarch     0.6.3-57.fc35                     fedora      31 k
+DEBUG util.py:446:   xmvn-core                                   noarch     4.0.0-4.fc36                      fedora     121 k
+DEBUG util.py:446:   xmvn-minimal                                noarch     4.0.0-4.fc36                      fedora      45 k
+DEBUG util.py:446:   xmvn-tools                                  noarch     4.0.0-4.fc36                      fedora     114 k
+DEBUG util.py:446:   xorg-x11-fonts-Type1                        noarch     7.5-32.fc35                       fedora     500 k
+DEBUG util.py:446:  Transaction Summary
+DEBUG util.py:446:  ===========================================================================================================
+DEBUG util.py:446:  Install  101 Packages
+DEBUG util.py:446:  Total size: 78 M
+DEBUG util.py:446:  Installed size: 276 M
+DEBUG util.py:446:  Downloading Packages:
+DEBUG util.py:446:  [SKIPPED] alsa-lib-1.2.6.1-3.fc36.x86_64.rpm: Already downloaded                                          
+DEBUG util.py:446:  [SKIPPED] ant-1.10.12-1.fc36.noarch.rpm: Already downloaded                                               
+DEBUG util.py:446:  [SKIPPED] ant-lib-1.10.12-1.fc36.noarch.rpm: Already downloaded                                           
+DEBUG util.py:446:  [SKIPPED] apache-commons-cli-1.5.0-1.fc36.noarch.rpm: Already downloaded                                  
+DEBUG util.py:446:  [SKIPPED] apache-commons-codec-1.15-4.fc35.noarch.rpm: Already downloaded                                 
+DEBUG util.py:446:  [SKIPPED] apache-commons-compress-1.21-1.fc35.noarch.rpm: Already downloaded                              
+DEBUG util.py:446:  [SKIPPED] apache-commons-io-2.8.0-5.fc35.noarch.rpm: Already downloaded                                   
+DEBUG util.py:446:  [SKIPPED] apache-commons-lang3-3.12.0-3.fc35.noarch.rpm: Already downloaded                               
+DEBUG util.py:446:  [SKIPPED] atinject-1.0.5-1.fc36.noarch.rpm: Already downloaded                                            
+DEBUG util.py:446:  [SKIPPED] avahi-libs-0.8-14.fc35.x86_64.rpm: Already downloaded                                           
+DEBUG util.py:446:  [SKIPPED] beust-jcommander-1.78-7.fc35.noarch.rpm: Already downloaded                                     
+DEBUG util.py:446:  [SKIPPED] cdi-api-2.0.2-3.fc35.noarch.rpm: Already downloaded                                             
+DEBUG util.py:446:  [SKIPPED] copy-jdk-configs-4.0-2.fc35.noarch.rpm: Already downloaded                                      
+DEBUG util.py:446:  [SKIPPED] crypto-policies-scripts-20211115-1.git1b1c04c.fc36.noarch.rpm: Already downloaded               
+DEBUG util.py:446:  [SKIPPED] cups-libs-2.3.3op2-11.fc36.x86_64.rpm: Already downloaded                                       
+DEBUG util.py:446:  [SKIPPED] dbus-libs-1.13.20-2.fc36.x86_64.rpm: Already downloaded                                         
+DEBUG util.py:446:  [SKIPPED] dejavu-sans-fonts-2.37-17.fc35.noarch.rpm: Already downloaded                                   
+DEBUG util.py:446:  [SKIPPED] fdupes-2.1.1-3.fc35.x86_64.rpm: Already downloaded                                              
+DEBUG util.py:446:  [SKIPPED] fontconfig-2.13.94-3.fc35.x86_64.rpm: Already downloaded                                        
+DEBUG util.py:446:  [SKIPPED] fonts-filesystem-2.0.5-6.fc35.noarch.rpm: Already downloaded                                    
+DEBUG util.py:446:  [SKIPPED] freetype-2.11.1-1.fc36.x86_64.rpm: Already downloaded                                           
+DEBUG util.py:446:  [SKIPPED] giflib-5.2.1-8.fc35.x86_64.rpm: Already downloaded                                              
+DEBUG util.py:446:  [SKIPPED] glib2-2.70.2-2.fc36.x86_64.rpm: Already downloaded                                              
+DEBUG util.py:446:  [SKIPPED] gnutls-3.7.2-2.fc35.x86_64.rpm: Already downloaded                                              
+DEBUG util.py:446:  [SKIPPED] google-guice-4.2.3-6.fc35.noarch.rpm: Already downloaded                                        
+DEBUG util.py:446:  [SKIPPED] graphite2-1.3.14-8.fc35.x86_64.rpm: Already downloaded                                          
+DEBUG util.py:446:  [SKIPPED] guava-31.0.1-1.fc36.noarch.rpm: Already downloaded                                              
+DEBUG util.py:446:  [SKIPPED] harfbuzz-3.2.0-1.fc36.x86_64.rpm: Already downloaded                                            
+DEBUG util.py:446:  [SKIPPED] httpcomponents-client-4.5.13-2.fc35.noarch.rpm: Already downloaded                              
+DEBUG util.py:446:  [SKIPPED] httpcomponents-core-4.4.13-4.fc35.noarch.rpm: Already downloaded                                
+DEBUG util.py:446:  [SKIPPED] jakarta-annotations-1.3.5-11.fc36.noarch.rpm: Already downloaded                                
+DEBUG util.py:446:  [SKIPPED] jansi-2.4.0-1.fc36.x86_64.rpm: Already downloaded                                               
+DEBUG util.py:446:  [SKIPPED] java-11-openjdk-11.0.14.0.1-0.1.ea.fc36.x86_64.rpm: Already downloaded                          
+DEBUG util.py:446:  [SKIPPED] java-11-openjdk-devel-11.0.14.0.1-0.1.ea.fc36.x86_64.rpm: Already downloaded                    
+DEBUG util.py:446:  [SKIPPED] java-11-openjdk-headless-11.0.14.0.1-0.1.ea.fc36.x86_64.rpm: Already downloaded                 
+DEBUG util.py:446:  [SKIPPED] javapackages-filesystem-6.0.0-4.fc36.noarch.rpm: Already downloaded                             
+DEBUG util.py:446:  [SKIPPED] javapackages-generators-6.0.0-4.fc36.noarch.rpm: Already downloaded                             
+DEBUG util.py:446:  [SKIPPED] javapackages-local-6.0.0-4.fc36.noarch.rpm: Already downloaded                                  
+DEBUG util.py:446:  [SKIPPED] javapackages-tools-6.0.0-4.fc36.noarch.rpm: Already downloaded                                  
+DEBUG util.py:446:  [SKIPPED] jcl-over-slf4j-1.7.32-1.fc36.noarch.rpm: Already downloaded                                     
+DEBUG util.py:446:  [SKIPPED] jsoup-1.13.1-7.fc35.noarch.rpm: Already downloaded                                              
+DEBUG util.py:446:  [SKIPPED] jsr-305-3.0.2-3.fc35.noarch.rpm: Already downloaded                                             
+DEBUG util.py:446:  [SKIPPED] langpacks-core-font-en-3.0-16.fc36.noarch.rpm: Already downloaded                               
+DEBUG util.py:446:  [SKIPPED] lcms2-2.12-2.fc35.x86_64.rpm: Already downloaded                                                
+DEBUG util.py:446:  [SKIPPED] libX11-1.7.3.1-1.fc36.x86_64.rpm: Already downloaded                                            
+DEBUG util.py:446:  [SKIPPED] libX11-common-1.7.3.1-1.fc36.noarch.rpm: Already downloaded                                     
+DEBUG util.py:446:  [SKIPPED] libXau-1.0.9-7.fc35.x86_64.rpm: Already downloaded                                              
+DEBUG util.py:446:  [SKIPPED] libXcomposite-0.4.5-6.fc35.x86_64.rpm: Already downloaded                                       
+DEBUG util.py:446:  [SKIPPED] libXext-1.3.4-7.fc35.x86_64.rpm: Already downloaded                                             
+DEBUG util.py:446:  [SKIPPED] libXi-1.8-1.fc36.x86_64.rpm: Already downloaded                                                 
+DEBUG util.py:446:  [SKIPPED] libXrender-0.9.10-15.fc35.x86_64.rpm: Already downloaded                                        
+DEBUG util.py:446:  [SKIPPED] libXtst-1.2.3-15.fc35.x86_64.rpm: Already downloaded                                            
+DEBUG util.py:446:  [SKIPPED] libevent-2.1.12-5.fc36.x86_64.rpm: Already downloaded                                           
+DEBUG util.py:446:  [SKIPPED] libfontenc-1.1.4-2.fc36.x86_64.rpm: Already downloaded                                          
+DEBUG util.py:446:  [SKIPPED] libjpeg-turbo-2.1.2-1.fc36.x86_64.rpm: Already downloaded                                       
+DEBUG util.py:446:  [SKIPPED] libpng-1.6.37-11.fc35.x86_64.rpm: Already downloaded                                            
+DEBUG util.py:446:  [SKIPPED] libxcb-1.13.1-8.fc35.x86_64.rpm: Already downloaded                                             
+DEBUG util.py:446:  [SKIPPED] libxslt-1.1.34-6.fc36.x86_64.rpm: Already downloaded                                            
+DEBUG util.py:446:  [SKIPPED] lksctp-tools-1.0.18-11.fc35.x86_64.rpm: Already downloaded                                      
+DEBUG util.py:446:  [SKIPPED] lua-5.4.3-2.fc35.x86_64.rpm: Already downloaded                                                 
+DEBUG util.py:446:  [SKIPPED] lua-posix-35.0-4.fc35.x86_64.rpm: Already downloaded                                            
+DEBUG util.py:446:  [SKIPPED] maven-3.6.3-14.fc36.noarch.rpm: Already downloaded                                              
+DEBUG util.py:446:  [SKIPPED] maven-lib-3.6.3-14.fc36.noarch.rpm: Already downloaded                                          
+DEBUG util.py:446:  [SKIPPED] maven-openjdk11-3.6.3-14.fc36.noarch.rpm: Already downloaded                                    
+DEBUG util.py:446:  [SKIPPED] maven-resolver-1.6.1-7.fc36.noarch.rpm: Already downloaded                                      
+DEBUG util.py:446:  [SKIPPED] maven-shared-utils-3.3.4-2.fc35.noarch.rpm: Already downloaded                                  
+DEBUG util.py:446:  [SKIPPED] maven-wagon-3.4.2-4.fc35.noarch.rpm: Already downloaded                                         
+DEBUG util.py:446:  [SKIPPED] mkfontscale-1.2.1-3.fc35.x86_64.rpm: Already downloaded                                         
+DEBUG util.py:446:  [SKIPPED] mpdecimal-2.5.1-2.fc35.x86_64.rpm: Already downloaded                                           
+DEBUG util.py:446:  [SKIPPED] nettle-3.7.3-2.fc35.x86_64.rpm: Already downloaded                                              
+DEBUG util.py:446:  [SKIPPED] nspr-4.32.0-4.fc36.x86_64.rpm: Already downloaded                                               
+DEBUG util.py:446:  [SKIPPED] nss-3.73.0-1.fc36.x86_64.rpm: Already downloaded                                                
+DEBUG util.py:446:  [SKIPPED] nss-softokn-3.73.0-1.fc36.x86_64.rpm: Already downloaded                                        
+DEBUG util.py:446:  [SKIPPED] nss-softokn-freebl-3.73.0-1.fc36.x86_64.rpm: Already downloaded                                 
+DEBUG util.py:446:  [SKIPPED] nss-sysinit-3.73.0-1.fc36.x86_64.rpm: Already downloaded                                        
+DEBUG util.py:446:  [SKIPPED] nss-util-3.73.0-1.fc36.x86_64.rpm: Already downloaded                                           
+DEBUG util.py:446:  [SKIPPED] objectweb-asm-9.2-1.fc36.noarch.rpm: Already downloaded                                         
+DEBUG util.py:446:  [SKIPPED] pcre2-utf32-10.39-1.fc36.x86_64.rpm: Already downloaded                                         
+DEBUG util.py:446:  [SKIPPED] plexus-cipher-1.8-1.fc36.noarch.rpm: Already downloaded                                         
+DEBUG util.py:446:  [SKIPPED] plexus-classworlds-2.6.0-8.fc35.noarch.rpm: Already downloaded                                  
+DEBUG util.py:446:  [SKIPPED] plexus-containers-component-annotations-2.1.0-7.fc35.noarch.rpm: Already downloaded             
+DEBUG util.py:446:  [SKIPPED] plexus-interpolation-1.26-8.fc35.noarch.rpm: Already downloaded                                 
+DEBUG util.py:446:  [SKIPPED] plexus-sec-dispatcher-2.0-1.fc36.noarch.rpm: Already downloaded                                 
+DEBUG util.py:446:  [SKIPPED] plexus-utils-3.3.0-7.fc35.noarch.rpm: Already downloaded                                        
+DEBUG util.py:446:  [SKIPPED] publicsuffix-list-20210518-3.fc36.noarch.rpm: Already downloaded                                
+DEBUG util.py:446:  [SKIPPED] python-pip-wheel-21.3.1-1.fc36.noarch.rpm: Already downloaded                                   
+DEBUG util.py:446:  [SKIPPED] python-setuptools-wheel-59.6.0-1.fc36.noarch.rpm: Already downloaded                            
+DEBUG util.py:446:  [SKIPPED] python3-3.10.1-1.fc36.x86_64.rpm: Already downloaded                                            
+DEBUG util.py:446:  [SKIPPED] python3-javapackages-6.0.0-4.fc36.noarch.rpm: Already downloaded                                
+DEBUG util.py:446:  [SKIPPED] python3-libs-3.10.1-1.fc36.x86_64.rpm: Already downloaded                                       
+DEBUG util.py:446:  [SKIPPED] python3-lxml-4.6.3-5.fc36.x86_64.rpm: Already downloaded                                        
+DEBUG util.py:446:  [SKIPPED] sisu-0.3.4-7.fc35.noarch.rpm: Already downloaded                                                
+DEBUG util.py:446:  [SKIPPED] slf4j-1.7.32-1.fc36.noarch.rpm: Already downloaded                                              
+DEBUG util.py:446:  [SKIPPED] ttmkfdir-3.0.9-64.fc35.x86_64.rpm: Already downloaded                                           
+DEBUG util.py:446:  [SKIPPED] tzdata-java-2021e-1.fc36.noarch.rpm: Already downloaded                                         
+DEBUG util.py:446:  [SKIPPED] xml-common-0.6.3-57.fc35.noarch.rpm: Already downloaded                                         
+DEBUG util.py:446:  [SKIPPED] xmvn-4.0.0-4.fc36.noarch.rpm: Already downloaded                                                
+DEBUG util.py:446:  [SKIPPED] xmvn-core-4.0.0-4.fc36.noarch.rpm: Already downloaded                                           
+DEBUG util.py:446:  [SKIPPED] xmvn-minimal-4.0.0-4.fc36.noarch.rpm: Already downloaded                                        
+DEBUG util.py:446:  [SKIPPED] xmvn-tools-4.0.0-4.fc36.noarch.rpm: Already downloaded                                          
+DEBUG util.py:446:  [SKIPPED] xorg-x11-fonts-Type1-7.5-32.fc35.noarch.rpm: Already downloaded                                 
+DEBUG util.py:446:  Running transaction check
+DEBUG util.py:446:  Transaction check succeeded.
+DEBUG util.py:446:  Running transaction test
+DEBUG util.py:446:  Transaction test succeeded.
+DEBUG util.py:446:  Running transaction
+DEBUG util.py:446:    Running scriptlet: copy-jdk-configs-4.0-2.fc35.noarch                                                1/1 
+DEBUG util.py:446:    Running scriptlet: java-11-openjdk-headless-1:11.0.14.0.1-0.1.ea.fc36.x86_64                         1/1 
+DEBUG util.py:446:    Running scriptlet: xmvn-minimal-4.0.0-4.fc36.noarch                                                  1/1 
+DEBUG util.py:446:    Preparing        :                                                                                   1/1 
+DEBUG util.py:446:    Installing       : javapackages-filesystem-6.0.0-4.fc36.noarch                                     1/101 
+DEBUG util.py:446:    Installing       : nspr-4.32.0-4.fc36.x86_64                                                       2/101 
+DEBUG util.py:446:    Installing       : nss-util-3.73.0-1.fc36.x86_64                                                   3/101 
+DEBUG util.py:446:    Installing       : libpng-2:1.6.37-11.fc35.x86_64                                                  4/101 
+DEBUG util.py:446:    Installing       : libjpeg-turbo-2.1.2-1.fc36.x86_64                                               5/101 
+DEBUG util.py:446:    Installing       : fonts-filesystem-1:2.0.5-6.fc35.noarch                                          6/101 
+DEBUG util.py:446:    Installing       : dejavu-sans-fonts-2.37-17.fc35.noarch                                           7/101 
+DEBUG util.py:446:    Installing       : langpacks-core-font-en-3.0-16.fc36.noarch                                       8/101 
+DEBUG util.py:446:    Installing       : nss-softokn-freebl-3.73.0-1.fc36.x86_64                                         9/101 
+DEBUG util.py:446:    Installing       : nss-softokn-3.73.0-1.fc36.x86_64                                               10/101 
+DEBUG util.py:446:    Running scriptlet: xml-common-0.6.3-57.fc35.noarch                                                11/101 
+DEBUG util.py:446:    Installing       : xml-common-0.6.3-57.fc35.noarch                                                11/101 
+DEBUG util.py:446:    Installing       : tzdata-java-2021e-1.fc36.noarch                                                12/101 
+DEBUG util.py:446:    Installing       : python-setuptools-wheel-59.6.0-1.fc36.noarch                                   13/101 
+DEBUG util.py:446:    Installing       : python-pip-wheel-21.3.1-1.fc36.noarch                                          14/101 
+DEBUG util.py:446:    Installing       : publicsuffix-list-20210518-3.fc36.noarch                                       15/101 
+DEBUG util.py:446:    Installing       : pcre2-utf32-10.39-1.fc36.x86_64                                                16/101 
+DEBUG util.py:446:    Installing       : nettle-3.7.3-2.fc35.x86_64                                                     17/101 
+DEBUG util.py:446:    Installing       : gnutls-3.7.2-2.fc35.x86_64                                                     18/101 
+DEBUG util.py:446:    Installing       : glib2-2.70.2-2.fc36.x86_64                                                     19/101 
+DEBUG util.py:446:    Installing       : mpdecimal-2.5.1-2.fc35.x86_64                                                  20/101 
+DEBUG util.py:446:    Installing       : python3-3.10.1-1.fc36.x86_64                                                   21/101 
+DEBUG util.py:446:    Installing       : python3-libs-3.10.1-1.fc36.x86_64                                              22/101 
+DEBUG util.py:446:    Installing       : crypto-policies-scripts-20211115-1.git1b1c04c.fc36.noarch                      23/101 
+DEBUG util.py:446:    Installing       : nss-sysinit-3.73.0-1.fc36.x86_64                                               24/101 
+DEBUG util.py:446:    Installing       : nss-3.73.0-1.fc36.x86_64                                                       25/101 
+DEBUG util.py:446:    Running scriptlet: nss-3.73.0-1.fc36.x86_64                                                       25/101 
+DEBUG util.py:446:    Installing       : lua-posix-35.0-4.fc35.x86_64                                                   26/101 
+DEBUG util.py:446:    Installing       : lua-5.4.3-2.fc35.x86_64                                                        27/101 
+DEBUG util.py:446:    Installing       : copy-jdk-configs-4.0-2.fc35.noarch                                             28/101 
+DEBUG util.py:446:    Installing       : lksctp-tools-1.0.18-11.fc35.x86_64                                             29/101 
+DEBUG util.py:446:    Installing       : libxslt-1.1.34-6.fc36.x86_64                                                   30/101 
+DEBUG util.py:446:    Installing       : python3-lxml-4.6.3-5.fc36.x86_64                                               31/101 
+DEBUG util.py:446:    Installing       : python3-javapackages-6.0.0-4.fc36.noarch                                       32/101 
+DEBUG util.py:446:    Installing       : libfontenc-1.1.4-2.fc36.x86_64                                                 33/101 
+DEBUG util.py:446:    Installing       : libevent-2.1.12-5.fc36.x86_64                                                  34/101 
+DEBUG util.py:446:    Installing       : libXau-1.0.9-7.fc35.x86_64                                                     35/101 
+DEBUG util.py:446:    Installing       : libxcb-1.13.1-8.fc35.x86_64                                                    36/101 
+DEBUG util.py:446:    Installing       : libX11-common-1.7.3.1-1.fc36.noarch                                            37/101 
+DEBUG util.py:446:    Installing       : libX11-1.7.3.1-1.fc36.x86_64                                                   38/101 
+DEBUG util.py:446:    Installing       : libXext-1.3.4-7.fc35.x86_64                                                    39/101 
+DEBUG util.py:446:    Installing       : libXi-1.8-1.fc36.x86_64                                                        40/101 
+DEBUG util.py:446:    Installing       : libXtst-1.2.3-15.fc35.x86_64                                                   41/101 
+DEBUG util.py:446:    Installing       : libXcomposite-0.4.5-6.fc35.x86_64                                              42/101 
+DEBUG util.py:446:    Installing       : libXrender-0.9.10-15.fc35.x86_64                                               43/101 
+DEBUG util.py:446:    Installing       : lcms2-2.12-2.fc35.x86_64                                                       44/101 
+DEBUG util.py:446:    Installing       : graphite2-1.3.14-8.fc35.x86_64                                                 45/101 
+DEBUG util.py:446:    Installing       : harfbuzz-3.2.0-1.fc36.x86_64                                                   46/101 
+DEBUG util.py:446:    Installing       : freetype-2.11.1-1.fc36.x86_64                                                  47/101 
+DEBUG util.py:446:    Installing       : fontconfig-2.13.94-3.fc35.x86_64                                               48/101 
+DEBUG util.py:446:    Running scriptlet: fontconfig-2.13.94-3.fc35.x86_64                                               48/101 
+DEBUG util.py:446:    Installing       : mkfontscale-1.2.1-3.fc35.x86_64                                                49/101 
+DEBUG util.py:446:    Installing       : ttmkfdir-3.0.9-64.fc35.x86_64                                                  50/101 
+DEBUG util.py:446:    Installing       : xorg-x11-fonts-Type1-7.5-32.fc35.noarch                                        51/101 
+DEBUG util.py:446:    Running scriptlet: xorg-x11-fonts-Type1-7.5-32.fc35.noarch                                        51/101 
+DEBUG util.py:446:    Installing       : giflib-5.2.1-8.fc35.x86_64                                                     52/101 
+DEBUG util.py:446:    Installing       : dbus-libs-1:1.13.20-2.fc36.x86_64                                              53/101 
+DEBUG util.py:446:    Installing       : avahi-libs-0.8-14.fc35.x86_64                                                  54/101 
+DEBUG util.py:446:    Installing       : cups-libs-1:2.3.3op2-11.fc36.x86_64                                            55/101 
+DEBUG util.py:446:    Installing       : alsa-lib-1.2.6.1-3.fc36.x86_64                                                 56/101 
+DEBUG util.py:446:    Installing       : java-11-openjdk-headless-1:11.0.14.0.1-0.1.ea.fc36.x86_64                      57/101 
+DEBUG util.py:446:    Running scriptlet: java-11-openjdk-headless-1:11.0.14.0.1-0.1.ea.fc36.x86_64                      57/101 
+DEBUG util.py:446:    Installing       : slf4j-1.7.32-1.fc36.noarch                                                     58/101 
+DEBUG util.py:446:    Installing       : atinject-1.0.5-1.fc36.noarch                                                   59/101 
+DEBUG util.py:446:    Installing       : plexus-utils-3.3.0-7.fc35.noarch                                               60/101 
+DEBUG util.py:446:    Installing       : javapackages-tools-6.0.0-4.fc36.noarch                                         61/101 
+DEBUG util.py:446:    Installing       : apache-commons-lang3-3.12.0-3.fc35.noarch                                      62/101 
+DEBUG util.py:446:    Installing       : httpcomponents-core-4.4.13-4.fc35.noarch                                       63/101 
+DEBUG util.py:446:    Installing       : plexus-cipher-1.8-1.fc36.noarch                                                64/101 
+DEBUG util.py:446:    Installing       : plexus-classworlds-2.6.0-8.fc35.noarch                                         65/101 
+DEBUG util.py:446:    Installing       : plexus-containers-component-annotations-2.1.0-7.fc35.noarch                    66/101 
+DEBUG util.py:446:    Installing       : plexus-sec-dispatcher-2.0-1.fc36.noarch                                        67/101 
+DEBUG util.py:446:    Installing       : objectweb-asm-9.2-1.fc36.noarch                                                68/101 
+DEBUG util.py:446:    Installing       : jcl-over-slf4j-1.7.32-1.fc36.noarch                                            69/101 
+DEBUG util.py:446:    Installing       : apache-commons-cli-1.5.0-1.fc36.noarch                                         70/101 
+DEBUG util.py:446:    Installing       : apache-commons-compress-1.21-1.fc35.noarch                                     71/101 
+DEBUG util.py:446:    Installing       : apache-commons-io-1:2.8.0-5.fc35.noarch                                        72/101 
+DEBUG util.py:446:    Installing       : beust-jcommander-1.78-7.fc35.noarch                                            73/101 
+DEBUG util.py:446:    Installing       : plexus-interpolation-1.26-8.fc35.noarch                                        74/101 
+DEBUG util.py:446:    Installing       : xmvn-core-4.0.0-4.fc36.noarch                                                  75/101 
+DEBUG util.py:446:    Installing       : xmvn-tools-4.0.0-4.fc36.noarch                                                 76/101 
+DEBUG util.py:446:    Installing       : maven-shared-utils-3.3.4-2.fc35.noarch                                         77/101 
+DEBUG util.py:446:    Installing       : javapackages-generators-6.0.0-4.fc36.noarch                                    78/101 
+DEBUG util.py:446:    Installing       : cdi-api-2.0.2-3.fc35.noarch                                                    79/101 
+DEBUG util.py:446:    Installing       : sisu-1:0.3.4-7.fc35.noarch                                                     80/101 
+DEBUG util.py:446:    Installing       : ant-lib-1.10.12-1.fc36.noarch                                                  81/101 
+DEBUG util.py:446:    Installing       : apache-commons-codec-1.15-4.fc35.noarch                                        82/101 
+DEBUG util.py:446:    Installing       : httpcomponents-client-4.5.13-2.fc35.noarch                                     83/101 
+DEBUG util.py:446:    Installing       : jakarta-annotations-1.3.5-11.fc36.noarch                                       84/101 
+DEBUG util.py:446:    Installing       : jansi-2.4.0-1.fc36.x86_64                                                      85/101 
+DEBUG util.py:446:    Installing       : java-11-openjdk-1:11.0.14.0.1-0.1.ea.fc36.x86_64                               86/101 
+DEBUG util.py:446:    Running scriptlet: java-11-openjdk-1:11.0.14.0.1-0.1.ea.fc36.x86_64                               86/101 
+DEBUG util.py:446:    Installing       : java-11-openjdk-devel-1:11.0.14.0.1-0.1.ea.fc36.x86_64                         87/101 
+DEBUG util.py:446:    Running scriptlet: java-11-openjdk-devel-1:11.0.14.0.1-0.1.ea.fc36.x86_64                         87/101 
+DEBUG util.py:446:    Installing       : jsoup-1.13.1-7.fc35.noarch                                                     88/101 
+DEBUG util.py:446:    Installing       : maven-wagon-3.4.2-4.fc35.noarch                                                89/101 
+DEBUG util.py:446:    Installing       : maven-resolver-1:1.6.1-7.fc36.noarch                                           90/101 
+DEBUG util.py:446:    Installing       : jsr-305-3.0.2-3.fc35.noarch                                                    91/101 
+DEBUG util.py:446:    Installing       : guava-31.0.1-1.fc36.noarch                                                     92/101 
+DEBUG util.py:446:    Installing       : google-guice-4.2.3-6.fc35.noarch                                               93/101 
+DEBUG util.py:446:    Installing       : maven-openjdk11-1:3.6.3-14.fc36.noarch                                         94/101 
+DEBUG util.py:446:    Installing       : maven-1:3.6.3-14.fc36.noarch                                                   95/101 
+DEBUG util.py:446:    Running scriptlet: maven-1:3.6.3-14.fc36.noarch                                                   95/101 
+DEBUG util.py:446:    Installing       : maven-lib-1:3.6.3-14.fc36.noarch                                               96/101 
+DEBUG util.py:446:    Installing       : xmvn-minimal-4.0.0-4.fc36.noarch                                               97/101 
+DEBUG util.py:446:    Installing       : xmvn-4.0.0-4.fc36.noarch                                                       98/101 
+DEBUG util.py:446:    Installing       : ant-1.10.12-1.fc36.noarch                                                      99/101 
+DEBUG util.py:446:    Installing       : javapackages-local-6.0.0-4.fc36.noarch                                        100/101 
+DEBUG util.py:446:    Installing       : fdupes-1:2.1.1-3.fc35.x86_64                                                  101/101 
+DEBUG util.py:446:    Running scriptlet: crypto-policies-scripts-20211115-1.git1b1c04c.fc36.noarch                     101/101 
+DEBUG util.py:446:    Running scriptlet: nss-3.73.0-1.fc36.x86_64                                                      101/101 
+DEBUG util.py:446:    Running scriptlet: copy-jdk-configs-4.0-2.fc35.noarch                                            101/101 
+DEBUG util.py:446:    Running scriptlet: fontconfig-2.13.94-3.fc35.x86_64                                              101/101 
+DEBUG util.py:446:    Running scriptlet: java-11-openjdk-headless-1:11.0.14.0.1-0.1.ea.fc36.x86_64                     101/101 
+DEBUG util.py:446:    Running scriptlet: java-11-openjdk-1:11.0.14.0.1-0.1.ea.fc36.x86_64                              101/101 
+DEBUG util.py:446:    Running scriptlet: java-11-openjdk-devel-1:11.0.14.0.1-0.1.ea.fc36.x86_64                        101/101 
+DEBUG util.py:446:    Running scriptlet: fdupes-1:2.1.1-3.fc35.x86_64                                                  101/101 
+DEBUG util.py:446:    Verifying        : alsa-lib-1.2.6.1-3.fc36.x86_64                                                  1/101 
+DEBUG util.py:446:    Verifying        : ant-1.10.12-1.fc36.noarch                                                       2/101 
+DEBUG util.py:446:    Verifying        : ant-lib-1.10.12-1.fc36.noarch                                                   3/101 
+DEBUG util.py:446:    Verifying        : apache-commons-cli-1.5.0-1.fc36.noarch                                          4/101 
+DEBUG util.py:446:    Verifying        : apache-commons-codec-1.15-4.fc35.noarch                                         5/101 
+DEBUG util.py:446:    Verifying        : apache-commons-compress-1.21-1.fc35.noarch                                      6/101 
+DEBUG util.py:446:    Verifying        : apache-commons-io-1:2.8.0-5.fc35.noarch                                         7/101 
+DEBUG util.py:446:    Verifying        : apache-commons-lang3-3.12.0-3.fc35.noarch                                       8/101 
+DEBUG util.py:446:    Verifying        : atinject-1.0.5-1.fc36.noarch                                                    9/101 
+DEBUG util.py:446:    Verifying        : avahi-libs-0.8-14.fc35.x86_64                                                  10/101 
+DEBUG util.py:446:    Verifying        : beust-jcommander-1.78-7.fc35.noarch                                            11/101 
+DEBUG util.py:446:    Verifying        : cdi-api-2.0.2-3.fc35.noarch                                                    12/101 
+DEBUG util.py:446:    Verifying        : copy-jdk-configs-4.0-2.fc35.noarch                                             13/101 
+DEBUG util.py:446:    Verifying        : crypto-policies-scripts-20211115-1.git1b1c04c.fc36.noarch                      14/101 
+DEBUG util.py:446:    Verifying        : cups-libs-1:2.3.3op2-11.fc36.x86_64                                            15/101 
+DEBUG util.py:446:    Verifying        : dbus-libs-1:1.13.20-2.fc36.x86_64                                              16/101 
+DEBUG util.py:446:    Verifying        : dejavu-sans-fonts-2.37-17.fc35.noarch                                          17/101 
+DEBUG util.py:446:    Verifying        : fdupes-1:2.1.1-3.fc35.x86_64                                                   18/101 
+DEBUG util.py:446:    Verifying        : fontconfig-2.13.94-3.fc35.x86_64                                               19/101 
+DEBUG util.py:446:    Verifying        : fonts-filesystem-1:2.0.5-6.fc35.noarch                                         20/101 
+DEBUG util.py:446:    Verifying        : freetype-2.11.1-1.fc36.x86_64                                                  21/101 
+DEBUG util.py:446:    Verifying        : giflib-5.2.1-8.fc35.x86_64                                                     22/101 
+DEBUG util.py:446:    Verifying        : glib2-2.70.2-2.fc36.x86_64                                                     23/101 
+DEBUG util.py:446:    Verifying        : gnutls-3.7.2-2.fc35.x86_64                                                     24/101 
+DEBUG util.py:446:    Verifying        : google-guice-4.2.3-6.fc35.noarch                                               25/101 
+DEBUG util.py:446:    Verifying        : graphite2-1.3.14-8.fc35.x86_64                                                 26/101 
+DEBUG util.py:446:    Verifying        : guava-31.0.1-1.fc36.noarch                                                     27/101 
+DEBUG util.py:446:    Verifying        : harfbuzz-3.2.0-1.fc36.x86_64                                                   28/101 
+DEBUG util.py:446:    Verifying        : httpcomponents-client-4.5.13-2.fc35.noarch                                     29/101 
+DEBUG util.py:446:    Verifying        : httpcomponents-core-4.4.13-4.fc35.noarch                                       30/101 
+DEBUG util.py:446:    Verifying        : jakarta-annotations-1.3.5-11.fc36.noarch                                       31/101 
+DEBUG util.py:446:    Verifying        : jansi-2.4.0-1.fc36.x86_64                                                      32/101 
+DEBUG util.py:446:    Verifying        : java-11-openjdk-1:11.0.14.0.1-0.1.ea.fc36.x86_64                               33/101 
+DEBUG util.py:446:    Verifying        : java-11-openjdk-devel-1:11.0.14.0.1-0.1.ea.fc36.x86_64                         34/101 
+DEBUG util.py:446:    Verifying        : java-11-openjdk-headless-1:11.0.14.0.1-0.1.ea.fc36.x86_64                      35/101 
+DEBUG util.py:446:    Verifying        : javapackages-filesystem-6.0.0-4.fc36.noarch                                    36/101 
+DEBUG util.py:446:    Verifying        : javapackages-generators-6.0.0-4.fc36.noarch                                    37/101 
+DEBUG util.py:446:    Verifying        : javapackages-local-6.0.0-4.fc36.noarch                                         38/101 
+DEBUG util.py:446:    Verifying        : javapackages-tools-6.0.0-4.fc36.noarch                                         39/101 
+DEBUG util.py:446:    Verifying        : jcl-over-slf4j-1.7.32-1.fc36.noarch                                            40/101 
+DEBUG util.py:446:    Verifying        : jsoup-1.13.1-7.fc35.noarch                                                     41/101 
+DEBUG util.py:446:    Verifying        : jsr-305-3.0.2-3.fc35.noarch                                                    42/101 
+DEBUG util.py:446:    Verifying        : langpacks-core-font-en-3.0-16.fc36.noarch                                      43/101 
+DEBUG util.py:446:    Verifying        : lcms2-2.12-2.fc35.x86_64                                                       44/101 
+DEBUG util.py:446:    Verifying        : libX11-1.7.3.1-1.fc36.x86_64                                                   45/101 
+DEBUG util.py:446:    Verifying        : libX11-common-1.7.3.1-1.fc36.noarch                                            46/101 
+DEBUG util.py:446:    Verifying        : libXau-1.0.9-7.fc35.x86_64                                                     47/101 
+DEBUG util.py:446:    Verifying        : libXcomposite-0.4.5-6.fc35.x86_64                                              48/101 
+DEBUG util.py:446:    Verifying        : libXext-1.3.4-7.fc35.x86_64                                                    49/101 
+DEBUG util.py:446:    Verifying        : libXi-1.8-1.fc36.x86_64                                                        50/101 
+DEBUG util.py:446:    Verifying        : libXrender-0.9.10-15.fc35.x86_64                                               51/101 
+DEBUG util.py:446:    Verifying        : libXtst-1.2.3-15.fc35.x86_64                                                   52/101 
+DEBUG util.py:446:    Verifying        : libevent-2.1.12-5.fc36.x86_64                                                  53/101 
+DEBUG util.py:446:    Verifying        : libfontenc-1.1.4-2.fc36.x86_64                                                 54/101 
+DEBUG util.py:446:    Verifying        : libjpeg-turbo-2.1.2-1.fc36.x86_64                                              55/101 
+DEBUG util.py:446:    Verifying        : libpng-2:1.6.37-11.fc35.x86_64                                                 56/101 
+DEBUG util.py:446:    Verifying        : libxcb-1.13.1-8.fc35.x86_64                                                    57/101 
+DEBUG util.py:446:    Verifying        : libxslt-1.1.34-6.fc36.x86_64                                                   58/101 
+DEBUG util.py:446:    Verifying        : lksctp-tools-1.0.18-11.fc35.x86_64                                             59/101 
+DEBUG util.py:446:    Verifying        : lua-5.4.3-2.fc35.x86_64                                                        60/101 
+DEBUG util.py:446:    Verifying        : lua-posix-35.0-4.fc35.x86_64                                                   61/101 
+DEBUG util.py:446:    Verifying        : maven-1:3.6.3-14.fc36.noarch                                                   62/101 
+DEBUG util.py:446:    Verifying        : maven-lib-1:3.6.3-14.fc36.noarch                                               63/101 
+DEBUG util.py:446:    Verifying        : maven-openjdk11-1:3.6.3-14.fc36.noarch                                         64/101 
+DEBUG util.py:446:    Verifying        : maven-resolver-1:1.6.1-7.fc36.noarch                                           65/101 
+DEBUG util.py:446:    Verifying        : maven-shared-utils-3.3.4-2.fc35.noarch                                         66/101 
+DEBUG util.py:446:    Verifying        : maven-wagon-3.4.2-4.fc35.noarch                                                67/101 
+DEBUG util.py:446:    Verifying        : mkfontscale-1.2.1-3.fc35.x86_64                                                68/101 
+DEBUG util.py:446:    Verifying        : mpdecimal-2.5.1-2.fc35.x86_64                                                  69/101 
+DEBUG util.py:446:    Verifying        : nettle-3.7.3-2.fc35.x86_64                                                     70/101 
+DEBUG util.py:446:    Verifying        : nspr-4.32.0-4.fc36.x86_64                                                      71/101 
+DEBUG util.py:446:    Verifying        : nss-3.73.0-1.fc36.x86_64                                                       72/101 
+DEBUG util.py:446:    Verifying        : nss-softokn-3.73.0-1.fc36.x86_64                                               73/101 
+DEBUG util.py:446:    Verifying        : nss-softokn-freebl-3.73.0-1.fc36.x86_64                                        74/101 
+DEBUG util.py:446:    Verifying        : nss-sysinit-3.73.0-1.fc36.x86_64                                               75/101 
+DEBUG util.py:446:    Verifying        : nss-util-3.73.0-1.fc36.x86_64                                                  76/101 
+DEBUG util.py:446:    Verifying        : objectweb-asm-9.2-1.fc36.noarch                                                77/101 
+DEBUG util.py:446:    Verifying        : pcre2-utf32-10.39-1.fc36.x86_64                                                78/101 
+DEBUG util.py:446:    Verifying        : plexus-cipher-1.8-1.fc36.noarch                                                79/101 
+DEBUG util.py:446:    Verifying        : plexus-classworlds-2.6.0-8.fc35.noarch                                         80/101 
+DEBUG util.py:446:    Verifying        : plexus-containers-component-annotations-2.1.0-7.fc35.noarch                    81/101 
+DEBUG util.py:446:    Verifying        : plexus-interpolation-1.26-8.fc35.noarch                                        82/101 
+DEBUG util.py:446:    Verifying        : plexus-sec-dispatcher-2.0-1.fc36.noarch                                        83/101 
+DEBUG util.py:446:    Verifying        : plexus-utils-3.3.0-7.fc35.noarch                                               84/101 
+DEBUG util.py:446:    Verifying        : publicsuffix-list-20210518-3.fc36.noarch                                       85/101 
+DEBUG util.py:446:    Verifying        : python-pip-wheel-21.3.1-1.fc36.noarch                                          86/101 
+DEBUG util.py:446:    Verifying        : python-setuptools-wheel-59.6.0-1.fc36.noarch                                   87/101 
+DEBUG util.py:446:    Verifying        : python3-3.10.1-1.fc36.x86_64                                                   88/101 
+DEBUG util.py:446:    Verifying        : python3-javapackages-6.0.0-4.fc36.noarch                                       89/101 
+DEBUG util.py:446:    Verifying        : python3-libs-3.10.1-1.fc36.x86_64                                              90/101 
+DEBUG util.py:446:    Verifying        : python3-lxml-4.6.3-5.fc36.x86_64                                               91/101 
+DEBUG util.py:446:    Verifying        : sisu-1:0.3.4-7.fc35.noarch                                                     92/101 
+DEBUG util.py:446:    Verifying        : slf4j-1.7.32-1.fc36.noarch                                                     93/101 
+DEBUG util.py:446:    Verifying        : ttmkfdir-3.0.9-64.fc35.x86_64                                                  94/101 
+DEBUG util.py:446:    Verifying        : tzdata-java-2021e-1.fc36.noarch                                                95/101 
+DEBUG util.py:446:    Verifying        : xml-common-0.6.3-57.fc35.noarch                                                96/101 
+DEBUG util.py:446:    Verifying        : xmvn-4.0.0-4.fc36.noarch                                                       97/101 
+DEBUG util.py:446:    Verifying        : xmvn-core-4.0.0-4.fc36.noarch                                                  98/101 
+DEBUG util.py:446:    Verifying        : xmvn-minimal-4.0.0-4.fc36.noarch                                               99/101 
+DEBUG util.py:446:    Verifying        : xmvn-tools-4.0.0-4.fc36.noarch                                                100/101 
+DEBUG util.py:446:    Verifying        : xorg-x11-fonts-Type1-7.5-32.fc35.noarch                                       101/101 
+DEBUG util.py:446:  Installed:
+DEBUG util.py:446:    alsa-lib-1.2.6.1-3.fc36.x86_64                                                                           
+DEBUG util.py:446:    ant-1.10.12-1.fc36.noarch                                                                                
+DEBUG util.py:446:    ant-lib-1.10.12-1.fc36.noarch                                                                            
+DEBUG util.py:446:    apache-commons-cli-1.5.0-1.fc36.noarch                                                                   
+DEBUG util.py:446:    apache-commons-codec-1.15-4.fc35.noarch                                                                  
+DEBUG util.py:446:    apache-commons-compress-1.21-1.fc35.noarch                                                               
+DEBUG util.py:446:    apache-commons-io-1:2.8.0-5.fc35.noarch                                                                  
+DEBUG util.py:446:    apache-commons-lang3-3.12.0-3.fc35.noarch                                                                
+DEBUG util.py:446:    atinject-1.0.5-1.fc36.noarch                                                                             
+DEBUG util.py:446:    avahi-libs-0.8-14.fc35.x86_64                                                                            
+DEBUG util.py:446:    beust-jcommander-1.78-7.fc35.noarch                                                                      
+DEBUG util.py:446:    cdi-api-2.0.2-3.fc35.noarch                                                                              
+DEBUG util.py:446:    copy-jdk-configs-4.0-2.fc35.noarch                                                                       
+DEBUG util.py:446:    crypto-policies-scripts-20211115-1.git1b1c04c.fc36.noarch                                                
+DEBUG util.py:446:    cups-libs-1:2.3.3op2-11.fc36.x86_64                                                                      
+DEBUG util.py:446:    dbus-libs-1:1.13.20-2.fc36.x86_64                                                                        
+DEBUG util.py:446:    dejavu-sans-fonts-2.37-17.fc35.noarch                                                                    
+DEBUG util.py:446:    fdupes-1:2.1.1-3.fc35.x86_64                                                                             
+DEBUG util.py:446:    fontconfig-2.13.94-3.fc35.x86_64                                                                         
+DEBUG util.py:446:    fonts-filesystem-1:2.0.5-6.fc35.noarch                                                                   
+DEBUG util.py:446:    freetype-2.11.1-1.fc36.x86_64                                                                            
+DEBUG util.py:446:    giflib-5.2.1-8.fc35.x86_64                                                                               
+DEBUG util.py:446:    glib2-2.70.2-2.fc36.x86_64                                                                               
+DEBUG util.py:446:    gnutls-3.7.2-2.fc35.x86_64                                                                               
+DEBUG util.py:446:    google-guice-4.2.3-6.fc35.noarch                                                                         
+DEBUG util.py:446:    graphite2-1.3.14-8.fc35.x86_64                                                                           
+DEBUG util.py:446:    guava-31.0.1-1.fc36.noarch                                                                               
+DEBUG util.py:446:    harfbuzz-3.2.0-1.fc36.x86_64                                                                             
+DEBUG util.py:446:    httpcomponents-client-4.5.13-2.fc35.noarch                                                               
+DEBUG util.py:446:    httpcomponents-core-4.4.13-4.fc35.noarch                                                                 
+DEBUG util.py:446:    jakarta-annotations-1.3.5-11.fc36.noarch                                                                 
+DEBUG util.py:446:    jansi-2.4.0-1.fc36.x86_64                                                                                
+DEBUG util.py:446:    java-11-openjdk-1:11.0.14.0.1-0.1.ea.fc36.x86_64                                                         
+DEBUG util.py:446:    java-11-openjdk-devel-1:11.0.14.0.1-0.1.ea.fc36.x86_64                                                   
+DEBUG util.py:446:    java-11-openjdk-headless-1:11.0.14.0.1-0.1.ea.fc36.x86_64                                                
+DEBUG util.py:446:    javapackages-filesystem-6.0.0-4.fc36.noarch                                                              
+DEBUG util.py:446:    javapackages-generators-6.0.0-4.fc36.noarch                                                              
+DEBUG util.py:446:    javapackages-local-6.0.0-4.fc36.noarch                                                                   
+DEBUG util.py:446:    javapackages-tools-6.0.0-4.fc36.noarch                                                                   
+DEBUG util.py:446:    jcl-over-slf4j-1.7.32-1.fc36.noarch                                                                      
+DEBUG util.py:446:    jsoup-1.13.1-7.fc35.noarch                                                                               
+DEBUG util.py:446:    jsr-305-3.0.2-3.fc35.noarch                                                                              
+DEBUG util.py:446:    langpacks-core-font-en-3.0-16.fc36.noarch                                                                
+DEBUG util.py:446:    lcms2-2.12-2.fc35.x86_64                                                                                 
+DEBUG util.py:446:    libX11-1.7.3.1-1.fc36.x86_64                                                                             
+DEBUG util.py:446:    libX11-common-1.7.3.1-1.fc36.noarch                                                                      
+DEBUG util.py:446:    libXau-1.0.9-7.fc35.x86_64                                                                               
+DEBUG util.py:446:    libXcomposite-0.4.5-6.fc35.x86_64                                                                        
+DEBUG util.py:446:    libXext-1.3.4-7.fc35.x86_64                                                                              
+DEBUG util.py:446:    libXi-1.8-1.fc36.x86_64                                                                                  
+DEBUG util.py:446:    libXrender-0.9.10-15.fc35.x86_64                                                                         
+DEBUG util.py:446:    libXtst-1.2.3-15.fc35.x86_64                                                                             
+DEBUG util.py:446:    libevent-2.1.12-5.fc36.x86_64                                                                            
+DEBUG util.py:446:    libfontenc-1.1.4-2.fc36.x86_64                                                                           
+DEBUG util.py:446:    libjpeg-turbo-2.1.2-1.fc36.x86_64                                                                        
+DEBUG util.py:446:    libpng-2:1.6.37-11.fc35.x86_64                                                                           
+DEBUG util.py:446:    libxcb-1.13.1-8.fc35.x86_64                                                                              
+DEBUG util.py:446:    libxslt-1.1.34-6.fc36.x86_64                                                                             
+DEBUG util.py:446:    lksctp-tools-1.0.18-11.fc35.x86_64                                                                       
+DEBUG util.py:446:    lua-5.4.3-2.fc35.x86_64                                                                                  
+DEBUG util.py:446:    lua-posix-35.0-4.fc35.x86_64                                                                             
+DEBUG util.py:446:    maven-1:3.6.3-14.fc36.noarch                                                                             
+DEBUG util.py:446:    maven-lib-1:3.6.3-14.fc36.noarch                                                                         
+DEBUG util.py:446:    maven-openjdk11-1:3.6.3-14.fc36.noarch                                                                   
+DEBUG util.py:446:    maven-resolver-1:1.6.1-7.fc36.noarch                                                                     
+DEBUG util.py:446:    maven-shared-utils-3.3.4-2.fc35.noarch                                                                   
+DEBUG util.py:446:    maven-wagon-3.4.2-4.fc35.noarch                                                                          
+DEBUG util.py:446:    mkfontscale-1.2.1-3.fc35.x86_64                                                                          
+DEBUG util.py:446:    mpdecimal-2.5.1-2.fc35.x86_64                                                                            
+DEBUG util.py:446:    nettle-3.7.3-2.fc35.x86_64                                                                               
+DEBUG util.py:446:    nspr-4.32.0-4.fc36.x86_64                                                                                
+DEBUG util.py:446:    nss-3.73.0-1.fc36.x86_64                                                                                 
+DEBUG util.py:446:    nss-softokn-3.73.0-1.fc36.x86_64                                                                         
+DEBUG util.py:446:    nss-softokn-freebl-3.73.0-1.fc36.x86_64                                                                  
+DEBUG util.py:446:    nss-sysinit-3.73.0-1.fc36.x86_64                                                                         
+DEBUG util.py:446:    nss-util-3.73.0-1.fc36.x86_64                                                                            
+DEBUG util.py:446:    objectweb-asm-9.2-1.fc36.noarch                                                                          
+DEBUG util.py:446:    pcre2-utf32-10.39-1.fc36.x86_64                                                                          
+DEBUG util.py:446:    plexus-cipher-1.8-1.fc36.noarch                                                                          
+DEBUG util.py:446:    plexus-classworlds-2.6.0-8.fc35.noarch                                                                   
+DEBUG util.py:446:    plexus-containers-component-annotations-2.1.0-7.fc35.noarch                                              
+DEBUG util.py:446:    plexus-interpolation-1.26-8.fc35.noarch                                                                  
+DEBUG util.py:446:    plexus-sec-dispatcher-2.0-1.fc36.noarch                                                                  
+DEBUG util.py:446:    plexus-utils-3.3.0-7.fc35.noarch                                                                         
+DEBUG util.py:446:    publicsuffix-list-20210518-3.fc36.noarch                                                                 
+DEBUG util.py:446:    python-pip-wheel-21.3.1-1.fc36.noarch                                                                    
+DEBUG util.py:446:    python-setuptools-wheel-59.6.0-1.fc36.noarch                                                             
+DEBUG util.py:446:    python3-3.10.1-1.fc36.x86_64                                                                             
+DEBUG util.py:446:    python3-javapackages-6.0.0-4.fc36.noarch                                                                 
+DEBUG util.py:446:    python3-libs-3.10.1-1.fc36.x86_64                                                                        
+DEBUG util.py:446:    python3-lxml-4.6.3-5.fc36.x86_64                                                                         
+DEBUG util.py:446:    sisu-1:0.3.4-7.fc35.noarch                                                                               
+DEBUG util.py:446:    slf4j-1.7.32-1.fc36.noarch                                                                               
+DEBUG util.py:446:    ttmkfdir-3.0.9-64.fc35.x86_64                                                                            
+DEBUG util.py:446:    tzdata-java-2021e-1.fc36.noarch                                                                          
+DEBUG util.py:446:    xml-common-0.6.3-57.fc35.noarch                                                                          
+DEBUG util.py:446:    xmvn-4.0.0-4.fc36.noarch                                                                                 
+DEBUG util.py:446:    xmvn-core-4.0.0-4.fc36.noarch                                                                            
+DEBUG util.py:446:    xmvn-minimal-4.0.0-4.fc36.noarch                                                                         
+DEBUG util.py:446:    xmvn-tools-4.0.0-4.fc36.noarch                                                                           
+DEBUG util.py:446:    xorg-x11-fonts-Type1-7.5-32.fc35.noarch                                                                  
+DEBUG util.py:446:  Complete!
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/sys/fs/selinux'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/dev/pts'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/dev/shm'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/sys'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64/root/proc'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:169:  kill orphans
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:536:  Using nspawn with args None
+DEBUG util.py:542:  Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', 'b3c6a269b2054465b7caa13aa4dfa531', '-D', '/var/lib/mock/fedora-rawhide-x86_64-bootstrap/root', '-a', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', '/bin/sh', '-c', "rpm -qa --root '/var/lib/mock/fedora-rawhide-x86_64/root' --qf '%{nevra} %{buildtime} %{size} %{pkgid} installed\\n'"] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0'} and shell False
+DEBUG util.py:446:  gpg-pubkey-38ab71f4-60242b08 1612983048 0 (none) installed
+DEBUG util.py:446:  gpg-pubkey-9867c58f-601c49ca 1612466634 0 (none) installed
+DEBUG util.py:446:  libgcc-11.2.1-7.fc36.x86_64 1638564066 198604 b33fb9e86ca3a39809861648852d4519 installed
+DEBUG util.py:446:  crypto-policies-20211115-1.git1b1c04c.fc36.noarch 1637006765 86148 6e879cd73573502fa7d3086c831a6307 installed
+DEBUG util.py:446:  fedora-release-identity-basic-36-0.12.noarch 1638288586 717 c3407b37aa3f780e7241eb23fc05972b installed
+DEBUG util.py:446:  tzdata-2021e-1.fc36.noarch 1635459032 1800709 d4952ea8c1d7d9352dc042be8b1c4aac installed
+DEBUG util.py:446:  rust-srpm-macros-20-1.fc36.noarch 1638222020 2447 7aa48f17c4f7a392f692c31dc40c87c1 installed
+DEBUG util.py:446:  qt5-srpm-macros-5.15.2-3.fc35.noarch 1627037606 492 be3fc262a57f16a89528f058f00a9dc3 installed
+DEBUG util.py:446:  publicsuffix-list-dafsa-20210518-3.fc36.noarch 1637060519 68815 e81d193580f83ebca70f9cc2b3432eb1 installed
+DEBUG util.py:446:  pkgconf-m4-1.8.0-1.fc35.noarch 1627221480 14187 d3b120a3b4d78e4a7e45396f30d9c709 installed
+DEBUG util.py:446:  perl-srpm-macros-1-42.fc35.noarch 1627009629 862 31fd62af1588ade5c32d0b0fcefa45d8 installed
+DEBUG util.py:446:  pcre2-syntax-10.39-1.fc36.noarch 1636034078 229322 07c65426a24baf43c87a36401347c023 installed
+DEBUG util.py:446:  openblas-srpm-macros-2-10.fc35.noarch 1626993369 104 6ef8804b6de37b9a73f2b8502530fc68 installed
+DEBUG util.py:446:  ocaml-srpm-macros-6-5.fc35.noarch 1626992091 745 519a978bddefede5d9252679a1726863 installed
+DEBUG util.py:446:  nim-srpm-macros-3-5.fc35.noarch 1626987977 1098 50f3b27dca3c2554c3334b6908fa8da4 installed
+DEBUG util.py:446:  ncurses-base-6.2-8.20210508.fc35.noarch 1626991807 307293 6fc56839d735263a9cfc0886c8d62377 installed
+DEBUG util.py:446:  libssh-config-0.9.6-1.fc36.noarch 1632238630 277 1f87ba3b630a8afeebedabfad4aeee99 installed
+DEBUG util.py:446:  kernel-srpm-macros-1.0-13.fc36.noarch 1637263963 1064 0837061621c722826066bac2140a1881 installed
+DEBUG util.py:446:  gnat-srpm-macros-4-14.fc35.noarch 1626923297 725 acfa6b9efd8326ee09e42947528d2fad installed
+DEBUG util.py:446:  ghc-srpm-macros-1.5.0-5.fc35.noarch 1626920787 535 83b17a3ad07bb6dce09a1113c2fbfc49 installed
+DEBUG util.py:446:  fpc-srpm-macros-1.3-4.fc35.noarch 1626912175 144 46535e4ca0d7762b018d90f26785ebe9 installed
+DEBUG util.py:446:  fedora-gpg-keys-36-0.3.noarch 1629216661 118311 1d520683e0e7cc4221ade46bec750891 installed
+DEBUG util.py:446:  fedora-release-36-0.12.noarch 1638288586 0 36e5ab51a6fe5cadcbd59f4696597f7f installed
+DEBUG util.py:446:  fedora-release-common-36-0.12.noarch 1638288586 17668 032b74f6c8df030ed0deb34e97a6c7f5 installed
+DEBUG util.py:446:  fedora-repos-rawhide-36-0.3.noarch 1629216661 2203 d83e34aeb6aa0cfd354175876d3b63b1 installed
+DEBUG util.py:446:  fedora-repos-36-0.3.noarch 1629216661 4597 8205ec5fae44ad89b015238f2f0b462b installed
+DEBUG util.py:446:  setup-2.13.9.1-2.fc35.noarch 1627075056 736053 64f8b1c53f47bf22f25324c6e700cc72 installed
+DEBUG util.py:446:  filesystem-3.16-1.fc36.x86_64 1632304495 106 696c3c32224ced91b048af23913ccaef installed
+DEBUG util.py:446:  basesystem-11-12.fc35.noarch 1626892315 0 af618e2cf6a1583a176bb5e45b0a5068 installed
+DEBUG util.py:446:  ncurses-libs-6.2-8.20210508.fc35.x86_64 1626985943 996375 2f994f573415c7206570f1717dcf626b installed
+DEBUG util.py:446:  bash-5.1.8-3.fc36.x86_64 1636111791 7739722 3c238f6212cb3e61fdf240e713fbee46 installed
+DEBUG util.py:446:  zlib-1.2.11-30.fc35.x86_64 1627555046 203449 fc88ceb52649360b8d871331220b0f6c installed
+DEBUG util.py:446:  xz-libs-5.2.5-7.fc35.x86_64 1627092507 181437 a020e7464332c7f3873c34907eacff50 installed
+DEBUG util.py:446:  bzip2-libs-1.0.8-10.fc36.x86_64 1635847593 78692 5e06fb139bdb55a6e35d7db6a9fd1f5d installed
+DEBUG util.py:446:  elfutils-libelf-0.186-1.fc36.x86_64 1636615823 1027521 09120d55ab470440e3e36e8f6855622f installed
+DEBUG util.py:446:  libcap-2.48-3.fc35.x86_64 1626961088 180511 fa377911e225ceb086daf490d0c94ab7 installed
+DEBUG util.py:446:  libuuid-2.37.2-1.fc36.x86_64 1629194240 34397 2edb70a01bb7932f8358c5992c0dc474 installed
+DEBUG util.py:446:  libstdc++-11.2.1-7.fc36.x86_64 1638564066 2481166 dc2d3968d6af550ec1d3112bc0f178ea installed
+DEBUG util.py:446:  libxcrypt-4.4.27-1.fc36.x86_64 1639755180 275361 49264fe6fad1b87476412e423ec1dfab installed
+DEBUG util.py:446:  popt-1.18-6.fc36.x86_64 1631658902 130248 1d7d1c136af2df09061406932ba0c8c2 installed
+DEBUG util.py:446:  gmp-1:6.2.1-1.fc36.x86_64 1635864434 818487 b8672b965eb91df7f27cb3eb8aa854e8 installed
+DEBUG util.py:446:  libattr-2.5.1-3.fc35.x86_64 1626891756 29341 a17b4483f4a01b5eb6d01f41842da285 installed
+DEBUG util.py:446:  libacl-2.3.1-2.fc35.x86_64 1626889009 41090 7f91f200578996693fbd6ba53b745348 installed
+DEBUG util.py:446:  readline-8.1-3.fc35.x86_64 1627041494 492684 aaf61524862c6beeb77380c15d658a93 installed
+DEBUG util.py:446:  lz4-libs-1.9.3-3.fc35.x86_64 1626976924 145387 35f02696af287b52c0a8ccd356299a79 installed
+DEBUG util.py:446:  mpfr-4.1.0-8.fc35.x86_64 1626983884 802431 de62fb0bd1ab4954a5a3e601e4f95b58 installed
+DEBUG util.py:446:  dwz-0.14-2.fc35.x86_64 1626907299 280646 8ae97d97b2c29bfe9e0ee73643bedfdd installed
+DEBUG util.py:446:  unzip-6.0-56.fc36.x86_64 1639652349 400843 1240ab9b04ccf4a8cea29e0bb762fc7d installed
+DEBUG util.py:446:  file-libs-5.41-3.fc36.x86_64 1639485497 8807842 b65697eb6d73b5998ae70976de69aa8e installed
+DEBUG util.py:446:  file-5.41-3.fc36.x86_64 1639485497 98373 839af5c600a9de8a1ceda909ec1f8429 installed
+DEBUG util.py:446:  sqlite-libs-3.36.0-4.fc36.x86_64 1629274141 1338849 1e9a9fef41195dcb15fa5d655a3d168d installed
+DEBUG util.py:446:  alternatives-1.19-1.fc35.x86_64 1627054363 63264 5cd393a56ec2efe3a8dd3f9abe55f043 installed
+DEBUG util.py:446:  diffutils-3.8-1.fc35.x86_64 1627895573 1563061 b288fa5059e9d347c23ecf7459de1392 installed
+DEBUG util.py:446:  libsepol-3.3-2.fc36.x86_64 1636646235 755963 5c6665ac6bd3f74de9210ede0d6ded43 installed
+DEBUG util.py:446:  libsmartcols-2.37.2-1.fc36.x86_64 1629194240 135371 87c55bfc59efd942ef74441cc73528b6 installed
+DEBUG util.py:446:  libunistring-0.9.10-14.fc35.x86_64 1626970676 1642923 fb4cd52955e96d4fe989ece3153119fa installed
+DEBUG util.py:446:  libidn2-2.3.2-3.fc36.x86_64 1630430183 291720 8bec67ffc0040305e3efb64d378cf49a installed
+DEBUG util.py:446:  lua-libs-5.4.3-2.fc35.x86_64 1626974759 555606 708062639b1ec59c853e3949ecb655b4 installed
+DEBUG util.py:446:  pcre2-10.39-1.fc36.x86_64 1636034008 633258 e35b8e2e0f275380920669c31926bb0c installed
+DEBUG util.py:446:  libselinux-3.3-2.fc36.x86_64 1638184473 173597 960cd3c2d64008dc817329b55bdc0403 installed
+DEBUG util.py:446:  sed-4.8-8.fc35.x86_64 1627074776 813479 18a95fcfe58463e71717b520d2412a8a installed
+DEBUG util.py:446:  findutils-1:4.8.0-4.fc35.x86_64 1626911297 1758182 f636dbf756669a4ed38bc1dff6c63018 installed
+DEBUG util.py:446:  libsemanage-3.3-1.fc36.x86_64 1634905114 303896 8ed4e5384f70b0f9d587277fd6c770b9 installed
+DEBUG util.py:446:  shadow-utils-2:4.9-8.fc36.x86_64 1637311705 3837701 9542c7499a81e81379707e22e4c75672 installed
+DEBUG util.py:446:  libutempter-1.2.1-5.fc35.x86_64 1626970643 58697 1c069b7288b0240929a10f6ac1cc1514 installed
+DEBUG util.py:446:  tar-2:1.34-2.fc35.x86_64 1627081075 3156278 052b560465e9eebf3c4f7986aa10ee0b installed
+DEBUG util.py:446:  libpsl-0.21.1-4.fc35.x86_64 1626969221 78520 418fc994aecd296a0e9f3a900a46f7c5 installed
+DEBUG util.py:446:  zip-3.0-31.fc35.x86_64 1627093104 712847 8bc0595d10f2bc85179113ad1484aba4 installed
+DEBUG util.py:446:  acl-2.3.1-2.fc35.x86_64 1626889009 213879 5abed9501aafe3db08adf076ba4f0b9c installed
+DEBUG util.py:446:  bzip2-1.0.8-10.fc36.x86_64 1635847593 94045 7ba905cef7f33c69731be413a734f4f3 installed
+DEBUG util.py:446:  libxml2-2.9.12-6.fc35.x86_64 1626972022 1923894 58e6c4b8f0daf9cb8cf8355e9855a6ce installed
+DEBUG util.py:446:  openssl1.1-1:1.1.1l-1.fc36.x86_64 1632138772 3876243 29868be49deeb8c77436b599365172d1 installed
+DEBUG util.py:446:  libarchive-3.5.2-2.fc36.x86_64 1630307534 907245 2cf74a4f9a53cf7b134f11d53d18f855 installed
+DEBUG util.py:446:  info-6.8-2.fc35.x86_64 1627082242 503786 d1e469daef55e19b18e1753de365ed7b installed
+DEBUG util.py:446:  ed-1.14.2-11.fc35.x86_64 1626907257 129811 094cf9934b01744c0c414314070af36f installed
+DEBUG util.py:446:  patch-2.7.6-15.fc35.x86_64 1627000523 265410 1e6cd06c190ae494f76619ff9487c79b installed
+DEBUG util.py:446:  cpio-2.13-11.fc36.x86_64 1630325808 1083898 cc85cc47d3f25270b54345d0e0ae768a installed
+DEBUG util.py:446:  expat-2.4.1-2.fc35.x86_64 1626909776 295041 1daae32a6bd9b6d68dce05f6cc47415a installed
+DEBUG util.py:446:  gdbm-libs-1:1.22-1.fc36.x86_64 1634724719 128586 372620214f5cb6cdd6fde1753825fb46 installed
+DEBUG util.py:446:  json-c-0.15-2.fc35.x86_64 1626953632 79583 a8a4268ee30918be55244041058454dc installed
+DEBUG util.py:446:  keyutils-libs-1.6.1-3.fc35.x86_64 1626955294 55801 535a1f1ca9e121cd9574c95b07820bb7 installed
+DEBUG util.py:446:  libargon2-20171227-7.fc35.x86_64 1626890552 50491 ac567677d937f7ca780ee17b36466f77 installed
+DEBUG util.py:446:  libbrotli-1.0.9-6.fc35.x86_64 1626893913 784274 d45caad095b8be733739ddc36bbf1a3b installed
+DEBUG util.py:446:  libdb-5.3.28-50.fc36.x86_64 1631794375 1922790 9165d206f0ee0ccb1da2c1528586359a installed
+DEBUG util.py:446:  libeconf-0.4.0-2.fc35.x86_64 1626962507 46171 1d425d5dc6879bacad175542465b0706 installed
+DEBUG util.py:446:  libffi-3.1-28.fc34.x86_64 1611731196 56840 077bc570623183e5b0eb94e8ef14e874 installed
+DEBUG util.py:446:  p11-kit-0.23.22-4.fc35.x86_64 1626999243 1659536 2e7cda635f37cded07d6b2c83065ba9a installed
+DEBUG util.py:446:  libgomp-11.2.1-7.fc36.x86_64 1638564066 412822 43872a8d17e361f9bbf3ba08f04f5933 installed
+DEBUG util.py:446:  libgpg-error-1.43-1.fc36.x86_64 1635950575 851221 7afd824890acf0cdd873ae3f47867ae2 installed
+DEBUG util.py:446:  libgcrypt-1.9.4-1.fc36.x86_64 1629720680 1392852 59e2cc2fed649bc002fb75e05e789b1d installed
+DEBUG util.py:446:  libnghttp2-1.46.0-1.fc36.x86_64 1634648839 162532 f366923935df459db89aea672fbf3eb8 installed
+DEBUG util.py:446:  libpkgconf-1.8.0-1.fc35.x86_64 1627221416 75953 4a3b0d15ab4d7e8482d98d677ad5b928 installed
+DEBUG util.py:446:  pkgconf-1.8.0-1.fc35.x86_64 1627221416 81451 f6bab719cb8f1b8c5862882bc45d2b45 installed
+DEBUG util.py:446:  pkgconf-pkg-config-1.8.0-1.fc35.x86_64 1627221416 989 a02a23bcacf44a3bdfc74247bc5d893c installed
+DEBUG util.py:446:  libseccomp-2.5.3-1.fc36.x86_64 1636203583 175484 c94abab83d1ecbec58b4b3c60d8fb70b installed
+DEBUG util.py:446:  libsigsegv-2.13-3.fc35.x86_64 1626969727 50250 f9aa2f7104c70b331c044360a70664f4 installed
+DEBUG util.py:446:  gawk-5.1.1-1.fc36.x86_64 1635772564 1708362 17f402fe974cae460327fda5caf594d9 installed
+DEBUG util.py:446:  libtasn1-4.18.0-1.fc36.x86_64 1636494233 183994 d98b1103a1122a9cce6f1ee5651ebffa installed
+DEBUG util.py:446:  p11-kit-trust-0.23.22-4.fc35.x86_64 1626999243 451087 70a611a55f6a52dbf5e6966daff44ae9 installed
+DEBUG util.py:446:  libverto-0.3.2-2.fc35.x86_64 1626970819 30277 cbb25f656c2c22c557ee83ad0d80dfb1 installed
+DEBUG util.py:446:  pcre-8.45-1.fc36.x86_64 1629279764 539220 6a5448ab58ca42fa50de789ab3a15848 installed
+DEBUG util.py:446:  grep-3.7-1.fc36.x86_64 1629144799 949303 418a97f7521220f4733ccdad7c84451f installed
+DEBUG util.py:446:  xz-5.2.5-7.fc35.x86_64 1627092507 685425 dd341adc7fbb8844cb9965b1eb893ec4 installed
+DEBUG util.py:446:  xxhash-libs-0.8.1-1.fc36.x86_64 1638346049 96920 f2db692b137869380eaea8c2a4036c86 installed
+DEBUG util.py:446:  coreutils-common-9.0-2.fc36.x86_64 1633350515 11033739 13dc7ddd21a60338fa3b873707724bed installed
+DEBUG util.py:446:  openssl-libs-1:3.0.0-1.fc36.x86_64 1631206141 6910251 eecd9be83d355e37db387ec828737d70 installed
+DEBUG util.py:446:  coreutils-9.0-2.fc36.x86_64 1633350515 5711386 418571a189b3343b279a0ff40fde28af installed
+DEBUG util.py:446:  ca-certificates-2021.2.52-2.fc36.noarch 1639417721 973667 b3fe9c24c473e0e8e04ec5333b8b2c97 installed
+DEBUG util.py:446:  libblkid-2.37.2-1.fc36.x86_64 1629194240 230761 bcf6f579f2b0dd97f8bd07fd7c1ba638 installed
+DEBUG util.py:446:  krb5-libs-1.19.2-4.fc36.x86_64 1638531327 2203019 ed53b42950b3d21e1a7c811e5bc2678c installed
+DEBUG util.py:446:  libmount-2.37.2-1.fc36.x86_64 1629194240 311117 0947343ed48d8d733d44ab4c62b40f85 installed
+DEBUG util.py:446:  util-linux-core-2.37.2-1.fc36.x86_64 1629194240 1279584 d296b4db24ad10daca513e302e92ceac installed
+DEBUG util.py:446:  libtirpc-1.3.2-1.rc1.fc36.x86_64 1631022089 208178 913ab7f77980f2baa1545e35fdbaf84b installed
+DEBUG util.py:446:  libfdisk-2.37.2-1.fc36.x86_64 1629194240 368883 94b88429c34d3017d1a8cc4436e6f32f installed
+DEBUG util.py:446:  gzip-1.11-1.fc36.x86_64 1634828906 370548 794ed9a20c54f84518e4136dd1e54b06 installed
+DEBUG util.py:446:  cracklib-2.9.6-27.fc36.x86_64 1630357018 251474 942e9fca4ce39033b500229201baeb56 installed
+DEBUG util.py:446:  libnsl2-2.0.0-2.fc36.x86_64 1636796994 59486 f7c2751adc73bacf9c25ba5d8588183b installed
+DEBUG util.py:446:  cyrus-sasl-lib-2.1.27-16.fc36.x86_64 1634043547 2409888 e427e9a94b2dd7fd03de97dae3b456e8 installed
+DEBUG util.py:446:  openldap-2.4.59-4.fc36.x86_64 1633097029 718693 f7df4289afa6e71199687f3a9e8ebb08 installed
+DEBUG util.py:446:  libssh-0.9.6-1.fc36.x86_64 1632238467 513065 b5b56898289f134595e72319cd4acaaf installed
+DEBUG util.py:446:  rpm-4.17.0-1.fc36.1.x86_64 1631644675 2948922 a420c79ff2a9cffb2ef50aad8ddacab4 installed
+DEBUG util.py:446:  rpm-libs-4.17.0-1.fc36.1.x86_64 1631644675 775140 25b1fbc8993fe8028856f1bc219d9e3e installed
+DEBUG util.py:446:  efi-srpm-macros-5-4.fc36.noarch 1630608889 41111 9ac42e695d91164878696a83a337da1f installed
+DEBUG util.py:446:  lua-srpm-macros-1-5.fc35.noarch 1626974425 1314 1d371eb16120fb40dbf7c0f03c3e8291 installed
+DEBUG util.py:446:  rpmautospec-rpm-macros-0.2.5-1.fc35.noarch 1628264740 698 8d7c0d5e1ebd255a29531ed50f7eac01 installed
+DEBUG util.py:446:  fonts-srpm-macros-1:2.0.5-6.fc35.noarch 1626911835 56503 e028a54cd411cf0f8ad51dcc2fde13e2 installed
+DEBUG util.py:446:  go-srpm-macros-3.0.11-2.fc35.noarch 1626930626 60319 a69641b37d6aeebdd34a6f34ebf4a394 installed
+DEBUG util.py:446:  python-srpm-macros-3.10-14.fc36.noarch 1639136895 42088 4244061c8923554c78cf366d7a873171 installed
+DEBUG util.py:446:  dbus-broker-29-4.fc36.x86_64 1633084996 396442 ebc7167ed20fd41a55f6aad5fbb57a73 installed
+DEBUG util.py:446:  kmod-libs-29-6.fc36.x86_64 1631641929 138406 23347d046bc47ea2d5629ece52ffc78b installed
+DEBUG util.py:446:  libpwquality-1.4.4-6.fc36.x86_64 1628688648 415452 f743797d80fbc29a7c38d3fda554ca5b installed
+DEBUG util.py:446:  pam-1.5.2-8.fc36.x86_64 1639041534 1950927 7f6d3fc8d16fc0a862364873d92cd995 installed
+DEBUG util.py:446:  util-linux-2.37.2-1.fc36.x86_64 1629194240 11216740 26af3a095042c6a0c6540785313ea546 installed
+DEBUG util.py:446:  cryptsetup-libs-2.4.2-1.fc36.x86_64 1637234435 1904569 ad6f0a8859dad6b19b97c41bc5740b1e installed
+DEBUG util.py:446:  device-mapper-libs-1.02.175-6.fc35.x86_64 1626976407 429905 0d3624c61452cd302099843ff7b3c0ed installed
+DEBUG util.py:446:  device-mapper-1.02.175-6.fc35.x86_64 1626976407 360179 b9106248dc3f37a317d84f9ae25db2d1 installed
+DEBUG util.py:446:  elfutils-debuginfod-client-0.186-1.fc36.x86_64 1636615823 58168 3391f8b06d3559c30adf2c17340f6da3 installed
+DEBUG util.py:446:  elfutils-libs-0.186-1.fc36.x86_64 1636615823 682557 0cb0142885e795457e3789ac99813394 installed
+DEBUG util.py:446:  elfutils-default-yama-scope-0.186-1.fc36.noarch 1636615967 1810 ebb92b4755ea9e845496bca5a96cdbaf installed
+DEBUG util.py:446:  binutils-gold-2.37-22.fc36.x86_64 1638451510 1976691 438e7529a976d0db25926bc173b991c2 installed
+DEBUG util.py:446:  binutils-2.37-22.fc36.x86_64 1638451510 34167193 f7459fcf14975f0612655c1577997c0b installed
+DEBUG util.py:446:  elfutils-0.186-1.fc36.x86_64 1636615823 2796217 d454ba619b9e94dd4f31babcf4346714 installed
+DEBUG util.py:446:  gdb-minimal-11.1-6.fc36.x86_64 1637346042 12679220 4bab148682309da151fecd79c303e365 installed
+DEBUG util.py:446:  debugedit-5.0-2.fc35.x86_64 1627943772 194459 5239705164dbdb4cc743115c72824aaa installed
+DEBUG util.py:446:  rpm-build-libs-4.17.0-1.fc36.1.x86_64 1631644675 199518 7056d76c06bed3b527421ac5b8e6a828 installed
+DEBUG util.py:446:  rpm-build-4.17.0-1.fc36.1.x86_64 1631644675 145180 716dd2c7165dcb7459337bf33d1fc737 installed
+DEBUG util.py:446:  which-2.21-31.fc36.x86_64 1638457036 82415 37d16dd238a7b739167056e1a08c1e87 installed
+DEBUG util.py:446:  authselect-libs-1.3.0-5.fc36.x86_64 1640718250 915887 33292d29cfb31d948d9c06ad38be28b8 installed
+DEBUG util.py:446:  authselect-1.3.0-5.fc36.x86_64 1640718250 153619 b545370596421078f26af0c687777cef installed
+DEBUG util.py:446:  libcap-ng-0.8.2-8.fc36.x86_64 1640199705 75084 5d4a67f751d505ad520710124aa06c89 installed
+DEBUG util.py:446:  redhat-rpm-config-207-1.fc36.noarch 1639927766 182011 799ed881b303bdf0cfaa7d570ff7b980 installed
+DEBUG util.py:446:  glibc-common-2.34.9000-36.fc36.x86_64 1641308332 1097586 2d71c829de6408966842f31902ac8687 installed
+DEBUG util.py:446:  glibc-gconv-extra-2.34.9000-36.fc36.x86_64 1641308332 8225732 6c7f12313e9aad1b06c8b82c7c4b9df9 installed
+DEBUG util.py:446:  glibc-minimal-langpack-2.34.9000-36.fc36.x86_64 1641308332 0 fd3e59de30d9395e5845f3d69cb4696a installed
+DEBUG util.py:446:  glibc-2.34.9000-36.fc36.x86_64 1641308332 7161687 b63cbb94de54bc57322b426823e52e00 installed
+DEBUG util.py:446:  libzstd-1.5.1-4.fc36.x86_64 1641231415 898251 f75cb9427230d844ad0f2928e131cea8 installed
+DEBUG util.py:446:  systemd-libs-250.1-1.fc36.x86_64 1641317524 1866000 6a81d585faab75f73d2445c4a3329590 installed
+DEBUG util.py:446:  audit-libs-3.0.6-2.fc36.x86_64 1641419002 307169 e5d4820aef061337bedca5bb2a4ea665 installed
+DEBUG util.py:446:  libcurl-7.81.0-1.fc36.x86_64 1641375104 685270 d965589b1e53d321a810c656988b036c installed
+DEBUG util.py:446:  systemd-rpm-macros-250.1-1.fc36.noarch 1641317743 10079 5d20f7a766e101c66a0d553aeb65d654 installed
+DEBUG util.py:446:  dbus-1:1.13.20-2.fc36.x86_64 1641304874 0 9c912be41dbd030243715020af4a8b97 installed
+DEBUG util.py:446:  systemd-pam-250.1-1.fc36.x86_64 1641317524 986340 c91ce4ecba4ddb4e783f36d5b46529c9 installed
+DEBUG util.py:446:  systemd-250.1-1.fc36.x86_64 1641317524 14541040 6b0594c84c8090f8bc1b914f65096d18 installed
+DEBUG util.py:446:  curl-7.81.0-1.fc36.x86_64 1641375104 707521 a8204d689dd663317d5eb53911ba2abe installed
+DEBUG util.py:446:  libcom_err-1.46.5-1.fc36.x86_64 1641235021 68985 f26eb795691b4fb30a1f75edf14ab794 installed
+DEBUG util.py:446:  zstd-1.5.1-4.fc36.x86_64 1641231415 1874492 03edf6f27d596e869e54217ca0ca1052 installed
+DEBUG util.py:446:  dbus-common-1:1.13.20-2.fc36.noarch 1641305016 11591 5d69ea61f844f5298aa8c7cf8aab061f installed
+DEBUG util.py:446:  javapackages-filesystem-6.0.0-4.fc36.noarch 1637490365 1932 6634c4e834ec9b982dd286d5df28f522 installed
+DEBUG util.py:446:  nspr-4.32.0-4.fc36.x86_64 1638416135 328536 1b23df39665697453ab8eff12b7dcfe8 installed
+DEBUG util.py:446:  nss-util-3.73.0-1.fc36.x86_64 1638416135 227696 92afc9ff36bbde966a2d65b0836ad746 installed
+DEBUG util.py:446:  libpng-2:1.6.37-11.fc35.x86_64 1626968699 240199 739d1b443830b98c47c361d44dffe5c5 installed
+DEBUG util.py:446:  libjpeg-turbo-2.1.2-1.fc36.x86_64 1637591845 653926 1f623f0cedb856a1f7d8b2b689e24757 installed
+DEBUG util.py:446:  fonts-filesystem-1:2.0.5-6.fc35.noarch 1626911835 0 450077d5fbbe5891c63e0fb894c30c5d installed
+DEBUG util.py:446:  dejavu-sans-fonts-2.37-17.fc35.noarch 1626904269 5930864 0385a5a2ec03fb30a84e98315c2a516c installed
+DEBUG util.py:446:  langpacks-core-font-en-3.0-16.fc36.noarch 1638277104 351 4a35ef412bf984524a7dbc57a7e3624c installed
+DEBUG util.py:446:  nss-softokn-freebl-3.73.0-1.fc36.x86_64 1638416135 766508 619c1a8224b262a66b8c509aca87c5ce installed
+DEBUG util.py:446:  nss-softokn-3.73.0-1.fc36.x86_64 1638416135 1811016 d8687060b34bc4fc977188fcac1f4eae installed
+DEBUG util.py:446:  xml-common-0.6.3-57.fc35.noarch 1627075237 80280 0b5d3448550fa24bdecd5b6289b3f504 installed
+DEBUG util.py:446:  tzdata-java-2021e-1.fc36.noarch 1635459032 370566 baf8276287c467ce5100a663e9561806 installed
+DEBUG util.py:446:  python-setuptools-wheel-59.6.0-1.fc36.noarch 1639402038 600839 b80068a197c268104eae1eb6740e951c installed
+DEBUG util.py:446:  python-pip-wheel-21.3.1-1.fc36.noarch 1635195808 1232567 48c923eccdb4bfa66aa035df74d783b2 installed
+DEBUG util.py:446:  publicsuffix-list-20210518-3.fc36.noarch 1637060519 253647 91dca3bdcd22906fd3bc6ea12f45d30d installed
+DEBUG util.py:446:  pcre2-utf32-10.39-1.fc36.x86_64 1636034008 539416 9d05f1ae835133d30b82ce5bb20ddd9e installed
+DEBUG util.py:446:  nettle-3.7.3-2.fc35.x86_64 1626987422 735221 4a7d4cbe7785c81277e7dba802d858f7 installed
+DEBUG util.py:446:  gnutls-3.7.2-2.fc35.x86_64 1626926461 3141270 10504fd7a0e1fe097092920f6f761f2e installed
+DEBUG util.py:446:  glib2-2.70.2-2.fc36.x86_64 1638806523 13577778 6460f88d553eb0e85a3706fc7d205903 installed
+DEBUG util.py:446:  mpdecimal-2.5.1-2.fc35.x86_64 1626983795 246955 5a959017ea843dc9cd834137e17dcbc5 installed
+DEBUG util.py:446:  python3-3.10.1-1.fc36.x86_64 1639045620 33130 a8a1c8af79c68d41389ef4ce00e20615 installed
+DEBUG util.py:446:  python3-libs-3.10.1-1.fc36.x86_64 1639045620 33074567 5350ee988162f3716cb463cd17606cc3 installed
+DEBUG util.py:446:  crypto-policies-scripts-20211115-1.git1b1c04c.fc36.noarch 1637006765 222373 a416e0899a62be37686eeb268eef1297 installed
+DEBUG util.py:446:  nss-sysinit-3.73.0-1.fc36.x86_64 1638416135 19152 330d127e322b5c4bae2db05f19a7e8a3 installed
+DEBUG util.py:446:  nss-3.73.0-1.fc36.x86_64 1638416135 1974338 0d244a8fcca900e5049fd720ec6f16c4 installed
+DEBUG util.py:446:  lua-posix-35.0-4.fc35.x86_64 1626975129 635930 c4d1fc8a071791f281d5dc98f36ff8e5 installed
+DEBUG util.py:446:  lua-5.4.3-2.fc35.x86_64 1626974759 608316 4a30dbd1d7b10eb28c97c17f6090b30a installed
+DEBUG util.py:446:  copy-jdk-configs-4.0-2.fc35.noarch 1626900746 19806 19df9fbb10f72ef264a5a1cc0ecc71f5 installed
+DEBUG util.py:446:  lksctp-tools-1.0.18-11.fc35.x86_64 1626972715 271929 98ca4675e6fbed41fb474f17dfd6e37f installed
+DEBUG util.py:446:  libxslt-1.1.34-6.fc36.x86_64 1632751628 771599 64d8d13b27f12547b7e120b2b3acd2d9 installed
+DEBUG util.py:446:  python3-lxml-4.6.3-5.fc36.x86_64 1638025983 4331110 aacfeea803eadf7b1fbd2333f0630b86 installed
+DEBUG util.py:446:  python3-javapackages-6.0.0-4.fc36.noarch 1637490365 235478 d2786db72f007dc150a5a8eeed84fecc installed
+DEBUG util.py:446:  libfontenc-1.1.4-2.fc36.x86_64 1632216182 66751 25407a03634e060fb60294683190aa25 installed
+DEBUG util.py:446:  libevent-2.1.12-5.fc36.x86_64 1631642376 931642 0b6deb602dbfc125b042f819c94cc370 installed
+DEBUG util.py:446:  libXau-1.0.9-7.fc35.x86_64 1626960461 64872 b063c6456282fb36d70371e5c6faf003 installed
+DEBUG util.py:446:  libxcb-1.13.1-8.fc35.x86_64 1626971307 1126110 c418e81bf4215c72eff87e9545e252ba installed
+DEBUG util.py:446:  libX11-common-1.7.3.1-1.fc36.noarch 1639112092 1336465 8138a118413b718c322785d022b3fcfd installed
+DEBUG util.py:446:  libX11-1.7.3.1-1.fc36.x86_64 1639111974 1356244 93d82ab15c5d6e9f24d320514929672b installed
+DEBUG util.py:446:  libXext-1.3.4-7.fc35.x86_64 1626960523 95676 e7c603a46b9f94b7c5cf2836ba8f339a installed
+DEBUG util.py:446:  libXi-1.8-1.fc36.x86_64 1631748039 82845 7c4bd325a07955cdbe7c69e3eb35d0d2 installed
+DEBUG util.py:446:  libXtst-1.2.3-15.fc35.x86_64 1626960752 38592 a39c1c489c7594f23d2a0f7d0c664484 installed
+DEBUG util.py:446:  libXcomposite-0.4.5-6.fc35.x86_64 1626960466 42373 68039fe34c2505130e1303438b735ae8 installed
+DEBUG util.py:446:  libXrender-0.9.10-15.fc35.x86_64 1626960646 51447 b9a2895d2245538d9ac04ca6cc3ee951 installed
+DEBUG util.py:446:  lcms2-2.12-2.fc35.x86_64 1626960028 412572 f8e23721689ba676ce5d54e779b9cd3d installed
+DEBUG util.py:446:  graphite2-1.3.14-8.fc35.x86_64 1626944604 201375 ba48a27ed5f0b90a54323438dfe1510a installed
+DEBUG util.py:446:  harfbuzz-3.2.0-1.fc36.x86_64 1639405398 1943681 ebbfe604ba1cfaf2d5393dd2eaead936 installed
+DEBUG util.py:446:  freetype-2.11.1-1.fc36.x86_64 1639067996 873987 a9a0d141d3b24ac9889f5d52ba3da878 installed
+DEBUG util.py:446:  fontconfig-2.13.94-3.fc35.x86_64 1626912317 839453 fad8a151c0c7f71b64370d671fbafaf8 installed
+DEBUG util.py:446:  mkfontscale-1.2.1-3.fc35.x86_64 1626981365 54783 f96db20361384fb202c593f7220757ab installed
+DEBUG util.py:446:  ttmkfdir-3.0.9-64.fc35.x86_64 1627084245 116918 3d8003d301fcd08bf4239f71567f6b64 installed
+DEBUG util.py:446:  xorg-x11-fonts-Type1-7.5-32.fc35.noarch 1627091535 884018 0da52866280c309baf1ec788c7be2564 installed
+DEBUG util.py:446:  giflib-5.2.1-8.fc35.x86_64 1626923331 108496 561308b065a65994d76eec7a0391d62a installed
+DEBUG util.py:446:  dbus-libs-1:1.13.20-2.fc36.x86_64 1641304874 386684 4b2bb8df376ad4e39fc4f7b0032175b8 installed
+DEBUG util.py:446:  avahi-libs-0.8-14.fc35.x86_64 1628004540 178870 5359cb28442335582deebae2649bc9eb installed
+DEBUG util.py:446:  cups-libs-1:2.3.3op2-11.fc36.x86_64 1638268231 683777 5546b84dfa3179a6bef18428292a90df installed
+DEBUG util.py:446:  alsa-lib-1.2.6.1-3.fc36.x86_64 1639760489 1484699 311e74eb433c08d4404fc209e701fd4d installed
+DEBUG util.py:446:  java-11-openjdk-headless-1:11.0.14.0.1-0.1.ea.fc36.x86_64 1639373019 179608147 2b40afdbeab4860199fd6cc838bb4f91 installed
+DEBUG util.py:446:  slf4j-1.7.32-1.fc36.noarch 1637693772 84220 8986452da8e780c3e98aca5eff2c9629 installed
+DEBUG util.py:446:  atinject-1.0.5-1.fc36.noarch 1635943497 27291 3823554828baeae551610d976cadf5ce installed
+DEBUG util.py:446:  plexus-utils-3.3.0-7.fc35.noarch 1627012120 279784 bbdfb9d2806130c58be05b1adafc3f4e installed
+DEBUG util.py:446:  javapackages-tools-6.0.0-4.fc36.noarch 1637490365 64366 405cec01940cb558fe7cb47eb09d1d1e installed
+DEBUG util.py:446:  apache-commons-lang3-3.12.0-3.fc35.noarch 1626890286 713446 4923b15f5a2eec3fb97393defe049323 installed
+DEBUG util.py:446:  httpcomponents-core-4.4.13-4.fc35.noarch 1626948248 1131144 e47fe88d0a1ee9beb367a5053bf42be2 installed
+DEBUG util.py:446:  plexus-cipher-1.8-1.fc36.noarch 1632474305 31221 94507977ed0e95c66451629156192af1 installed
+DEBUG util.py:446:  plexus-classworlds-2.6.0-8.fc35.noarch 1627372310 72316 1641e5983f2cafe16f23a68e5e30738b installed
+DEBUG util.py:446:  plexus-containers-component-annotations-2.1.0-7.fc35.noarch 1627372338 19610 83d496512016f08773b820e6214d984b installed
+DEBUG util.py:446:  plexus-sec-dispatcher-2.0-1.fc36.noarch 1635410909 40912 1154d1c8b90cb7a847b7393fdcc9c0e3 installed
+DEBUG util.py:446:  objectweb-asm-9.2-1.fc36.noarch 1635943620 405723 987c1c295e88af84cf517db7f3e9f672 installed
+DEBUG util.py:446:  jcl-over-slf4j-1.7.32-1.fc36.noarch 1637693772 20012 f2cfd855d430a722c9fe19ed2392b53f installed
+DEBUG util.py:446:  apache-commons-cli-1.5.0-1.fc36.noarch 1636026198 106480 fbd09671f5e5256a4cc412694e90a7a2 installed
+DEBUG util.py:446:  apache-commons-compress-1.21-1.fc35.noarch 1628510158 659947 aa6f80da0705f4e4abf376ced44909ce installed
+DEBUG util.py:446:  apache-commons-io-1:2.8.0-5.fc35.noarch 1626890224 374645 6e3e0384a5038e40277efa53797de628 installed
+DEBUG util.py:446:  beust-jcommander-1.78-7.fc35.noarch 1626892742 109990 f13192f8b7b418c7535f12263a2e1a80 installed
+DEBUG util.py:446:  plexus-interpolation-1.26-8.fc35.noarch 1627012053 86414 3c7df13d5aee4b376913ab9462e5d8ce installed
+DEBUG util.py:446:  xmvn-core-4.0.0-4.fc36.noarch 1636368631 159006 988ea2d45dc6eff544d72a63d9897c7b installed
+DEBUG util.py:446:  xmvn-tools-4.0.0-4.fc36.noarch 1636368631 138406 41ce356505a725087f0731972d09d40b installed
+DEBUG util.py:446:  maven-shared-utils-3.3.4-2.fc35.noarch 1626978269 176334 ee692aee4a6d4edfe63f770aa72ec449 installed
+DEBUG util.py:446:  javapackages-generators-6.0.0-4.fc36.noarch 1637490365 30329 59f7e72cce4b974baeec2b7b2b662480 installed
+DEBUG util.py:446:  cdi-api-2.0.2-3.fc35.noarch 1626895788 68105 03b36c0e613720a4937892bae30bd929 installed
+DEBUG util.py:446:  sisu-1:0.3.4-7.fc35.noarch 1627076469 595644 cbc0f29e1b578287d24f991d95e41f96 installed
+DEBUG util.py:446:  ant-lib-1.10.12-1.fc36.noarch 1636456700 2325623 2f79aacff8ed6b9943d4893adc797dd6 installed
+DEBUG util.py:446:  apache-commons-codec-1.15-4.fc35.noarch 1626890126 400349 faf43f823fb29a1eafcbca6fc23d0f57 installed
+DEBUG util.py:446:  httpcomponents-client-4.5.13-2.fc35.noarch 1626948099 859698 ea97f4084ac17ce4a5a980769574a472 installed
+DEBUG util.py:446:  jakarta-annotations-1.3.5-11.fc36.noarch 1628849197 75835 fa739ddb4673d3ebeb9a9a2ad7847263 installed
+DEBUG util.py:446:  jansi-2.4.0-1.fc36.x86_64 1635946398 175761 2c0940c0ed81b9ab9360611ba5f3010c installed
+DEBUG util.py:446:  java-11-openjdk-1:11.0.14.0.1-0.1.ea.fc36.x86_64 1639373019 780256 1b6a303729b0586f3c1d760b8ded0ab7 installed
+DEBUG util.py:446:  java-11-openjdk-devel-1:11.0.14.0.1-0.1.ea.fc36.x86_64 1639373019 5580557 8207bc9449568e1a41a0bb1139a22ed5 installed
+DEBUG util.py:446:  jsoup-1.13.1-7.fc35.noarch 1626953656 458951 fc054a4bd9c150b51a5ade38b92f1cc9 installed
+DEBUG util.py:446:  maven-wagon-3.4.2-4.fc35.noarch 1626978288 193503 2576ab84702d11be5d9fa4f280a750fd installed
+DEBUG util.py:446:  maven-resolver-1:1.6.1-7.fc36.noarch 1635489968 779073 906a8506ca11ca9c77aa29d9b92ea53b installed
+DEBUG util.py:446:  jsr-305-3.0.2-3.fc35.noarch 1626953647 34560 d303b46cf5db92928459c5a747deac90 installed
+DEBUG util.py:446:  guava-31.0.1-1.fc36.noarch 1634904853 2973916 2d83c1a35bfcf45bd5966577fe564718 installed
+DEBUG util.py:446:  google-guice-4.2.3-6.fc35.noarch 1626944055 548963 e198d1ec8643737cad575ac0c3e9669a installed
+DEBUG util.py:446:  maven-openjdk11-1:3.6.3-14.fc36.noarch 1636107110 39 62d8ce4036b8fd84efc6dee041cb1515 installed
+DEBUG util.py:446:  maven-1:3.6.3-14.fc36.noarch 1636107110 21448 f0e5f97008f853fe5aea14afd24ed678 installed
+DEBUG util.py:446:  maven-lib-1:3.6.3-14.fc36.noarch 1636107110 1957145 6a84dcd7966b608728e26118f310ba96 installed
+DEBUG util.py:446:  xmvn-minimal-4.0.0-4.fc36.noarch 1636368631 43033 581bb9cd984bfe0969fcf82509e6f825 installed
+DEBUG util.py:446:  xmvn-4.0.0-4.fc36.noarch 1636368631 4 2de3cac558297baa9f5d15f1578a2736 installed
+DEBUG util.py:446:  ant-1.10.12-1.fc36.noarch 1636456700 477257 185db52caaeaa650f8f8a1f16ab82e4b installed
+DEBUG util.py:446:  javapackages-local-6.0.0-4.fc36.noarch 1637490365 85931 b1ad35a0a94e2870ef9632a69a221c63 installed
+DEBUG util.py:446:  fdupes-1:2.1.1-3.fc35.x86_64 1626910851 93097 f95714b0ea80035709140dc7f9788a35 installed
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG backend.py:777:  Copying packages to result dir
+DEBUG util.py:169:  kill orphans
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64-bootstrap/root/var/lib/mock/fedora-rawhide-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '-l', '/var/lib/mock/fedora-rawhide-x86_64-bootstrap/root/var/lib/mock/fedora-rawhide-x86_64/root'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/fedora-rawhide-x86_64/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/fedora-rawhide-x86_64/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/fedora-rawhide-x86_64/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['btrfs', 'subv', 'list', '/var/lib/mock'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:446:  ID 256 gen 860607 top level 5 path home
+DEBUG util.py:446:  ID 257 gen 860607 top level 5 path root
+DEBUG util.py:446:  ID 302 gen 857894 top level 257 path var/lib/machines
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:169:  kill orphans
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/fedora-rawhide-x86_64-bootstrap/root/proc/filesystems'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/fedora-rawhide-x86_64-bootstrap/root/var/cache/dnf'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
+DEBUG util.py:624:  child environment: None
+DEBUG util.py:542:  Executing command: ['/bin/umount', '-n', '/var/lib/mock/fedora-rawhide-x86_64-bootstrap/root/var/cache/yum'] with env {'TERM': 'vt100', 'SHELL': '/bin/sh', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'LANG': 'C.UTF-8'} and shell False
+DEBUG util.py:598:  Child return code was: 0
